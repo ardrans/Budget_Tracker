@@ -1,0 +1,7 @@
+media/
+staticfiles/
+.env
+*.env
+.env.*
+/be/budget_tracker/__pycache__/
+/be/budget_tracker/db.sqlite3
