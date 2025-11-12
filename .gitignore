@@ -5,3 +5,6 @@ staticfiles/
 .env.*
 /be/budget_tracker/__pycache__/
 /be/budget_tracker/db.sqlite3
+
+ui/node_modules
+ui/build
