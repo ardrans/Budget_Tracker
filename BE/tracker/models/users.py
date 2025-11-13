@@ -2,7 +2,9 @@ from django.db import models
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager
 from django.db.models.signals import post_save
 from django.dispatch import receiver
-from tracker.models.category import Category
+from tracker.logger import get_logger
+
+logger = get_logger(__name__)  
 
 DEFAULT_CATEGORIES = ['Salary', 'Rent', 'Groceries', 'Entertainment', 'Misc']
 
@@ -34,11 +36,16 @@ class User(AbstractBaseUser):
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = ['name', 'phone']
 
+    def save(self, *args, **kwargs):
+        logger.info(f"Saving user: {self.email}")
+        super().save(*args, **kwargs)
+
     def __str__(self):
         return self.email
     
 @receiver(post_save, sender=User)
 def create_default_categories(sender, instance, created, **kwargs):
     if created:
+        from tracker.models.category import Category
         for cat in DEFAULT_CATEGORIES:
             Category.objects.create(user=instance, name=cat, is_custom=False)

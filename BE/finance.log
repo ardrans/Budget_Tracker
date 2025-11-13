@@ -1,0 +1,7 @@
+2025-11-13 04:59:01,558 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-13 04:59:01,570 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=120.00
+2025-11-13 04:59:45,188 - tracker.views.budget - INFO - Fetching or creating budget entry for user admin@test.com for November 2025
+2025-11-13 04:59:45,190 - tracker.views.budget - INFO - Existing budget retrieved for user admin@test.com
+2025-11-13 04:59:45,192 - tracker.serializers.budget - INFO - Validated budget amount: 500.00
+2025-11-13 04:59:45,193 - tracker.models.budget - INFO - Updating budget for user admin@test.com for month November with amount 500.00
+2025-11-13 04:59:45,196 - tracker.views.budget - INFO - User admin@test.com updated budget to 500.00
