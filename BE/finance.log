@@ -5,3 +5,346 @@
 2025-11-13 04:59:45,192 - tracker.serializers.budget - INFO - Validated budget amount: 500.00
 2025-11-13 04:59:45,193 - tracker.models.budget - INFO - Updating budget for user admin@test.com for month November with amount 500.00
 2025-11-13 04:59:45,196 - tracker.views.budget - INFO - User admin@test.com updated budget to 500.00
+2025-11-13 08:03:57,030 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-13 08:03:57,032 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-13 08:03:57,050 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=120.00
+2025-11-13 08:03:57,050 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=120.00
+2025-11-13 08:10:31,816 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-13 08:10:31,831 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=120.00
+2025-11-13 08:10:31,837 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-13 08:10:31,841 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=120.00
+2025-11-13 08:43:23,472 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-13 08:43:23,472 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-13 08:43:23,490 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=120.00
+2025-11-13 08:43:23,490 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=120.00
+2025-11-13 09:11:23,911 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-13 09:11:23,929 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=120.00
+2025-11-13 09:11:23,932 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-13 09:11:23,935 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=120.00
+2025-11-13 09:12:01,355 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-13 09:12:01,358 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-13 09:12:01,362 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=120.00
+2025-11-13 09:12:01,364 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=120.00
+2025-11-13 09:15:22,885 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-13 09:15:22,885 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-13 09:15:22,889 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=120.00
+2025-11-13 09:15:22,889 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=120.00
+2025-11-13 09:21:41,859 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 09:21:41,859 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 09:21:46,382 - tracker.views.category - INFO - User admin@test.com accessed category list, 6 records returned
+2025-11-13 09:21:46,382 - tracker.views.category - INFO - User admin@test.com accessed category list, 6 records returned
+2025-11-13 09:21:49,935 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-13 09:21:49,937 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=120.00
+2025-11-13 09:21:49,940 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-13 09:21:49,942 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=120.00
+2025-11-13 10:08:59,620 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-13 10:08:59,623 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-13 10:08:59,630 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=120.00
+2025-11-13 10:08:59,631 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=120.00
+2025-11-13 10:09:13,802 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-13 10:09:13,802 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-13 10:09:13,805 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=120.00
+2025-11-13 10:09:13,806 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=120.00
+2025-11-13 10:09:31,993 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:09:32,007 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:14:48,121 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:14:48,131 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:15:13,617 - tracker.views.category - INFO - User admin@test.com accessed category list, 6 records returned
+2025-11-13 10:15:13,633 - tracker.views.category - INFO - User admin@test.com accessed category list, 6 records returned
+2025-11-13 10:15:15,056 - tracker.views.transactions - INFO - User admin@test.com accessed transaction detail view
+2025-11-13 10:15:15,060 - tracker.serializers.transactions - INFO - Validated transaction amount: 120.00
+2025-11-13 10:15:15,063 - tracker.models.transactions - INFO - Updating transaction ID 1 for user admin@test.com: expense - 120.00 in category Groceries
+2025-11-13 10:15:15,084 - tracker.views.transactions - INFO - User admin@test.com accessed transaction detail view
+2025-11-13 10:15:15,086 - tracker.views.transactions - INFO - User admin@test.com updated transaction 1
+2025-11-13 10:15:15,098 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:15:21,654 - tracker.views.category - INFO - User admin@test.com accessed category list, 6 records returned
+2025-11-13 10:15:21,661 - tracker.views.category - INFO - User admin@test.com accessed category list, 6 records returned
+2025-11-13 10:15:42,163 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:15:46,620 - tracker.views.category - INFO - User admin@test.com accessed category list, 6 records returned
+2025-11-13 10:15:46,628 - tracker.views.category - INFO - User admin@test.com accessed category list, 6 records returned
+2025-11-13 10:16:05,007 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:24:28,826 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:24:28,838 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:25:10,000 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:25:10,000 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:25:13,167 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:25:13,179 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:25:27,457 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:25:27,465 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:25:51,755 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:25:51,764 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:50:06,953 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:50:06,962 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:50:20,515 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:50:22,012 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:50:23,027 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:50:23,260 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:50:27,183 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:50:27,558 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:50:29,801 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:50:33,239 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:50:34,831 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:50:35,743 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:50:36,301 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:50:37,661 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:50:38,684 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:50:39,266 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:50:39,483 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:50:39,792 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:50:41,185 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:50:42,296 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:50:44,342 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:50:44,840 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:50:44,911 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:50:44,993 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:50:45,074 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:50:45,160 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:50:50,174 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:50:51,877 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:50:54,252 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:50:54,458 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:50:55,603 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:50:55,787 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:51:02,359 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:51:04,632 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:51:11,448 - tracker.views.category - INFO - User admin@test.com accessed category list, 6 records returned
+2025-11-13 10:51:11,452 - tracker.views.category - INFO - User admin@test.com accessed category list, 6 records returned
+2025-11-13 10:51:54,717 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 10:51:56,730 - tracker.views.category - INFO - User admin@test.com accessed category list, 6 records returned
+2025-11-13 10:51:56,737 - tracker.views.category - INFO - User admin@test.com accessed category list, 6 records returned
+2025-11-13 10:52:16,175 - tracker.views.category - INFO - User admin@test.com attempting to create category with data: {'name': 'food'}
+2025-11-13 10:52:16,176 - tracker.serializers.category - INFO - Creating custom category 'food' for user admin@test.com
+2025-11-13 10:52:16,176 - tracker.models.category - INFO - Creating new category 'food' for user admin@test.com
+2025-11-13 10:52:16,188 - tracker.serializers.category - INFO - Category created successfully with ID: 7
+2025-11-13 10:52:16,188 - tracker.views.category - INFO - Category 'food' created successfully for user admin@test.com
+2025-11-13 10:53:38,988 - tracker.views.transactions - INFO - User admin@test.com attempting to create a transaction with data: {'type': 'income', 'note': 'food', 'amount': '50'}
+2025-11-13 10:53:38,990 - tracker.serializers.transactions - INFO - Validated transaction amount: 50.00
+2025-11-13 10:53:38,990 - tracker.views.transactions - ERROR - Error creating transaction for user admin@test.com: {'category': [ErrorDetail(string='This field is required.', code='required')]}
+Traceback (most recent call last):
+  File "/Users/ardrans/DotProducts_Assignment/BE/tracker/views/transactions.py", line 41, in create
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 233, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'category': [ErrorDetail(string='This field is required.', code='required')]}
+2025-11-13 11:01:53,140 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 1 records returned
+2025-11-13 11:01:58,049 - tracker.views.category - INFO - User admin@test.com accessed category list, 7 records returned
+2025-11-13 11:01:58,050 - tracker.views.category - INFO - User admin@test.com accessed category list, 7 records returned
+2025-11-13 11:02:36,964 - tracker.views.category - INFO - User admin@test.com attempting to create category with data: {'name': 'foods'}
+2025-11-13 11:02:36,967 - tracker.serializers.category - INFO - Creating custom category 'foods' for user admin@test.com
+2025-11-13 11:02:36,967 - tracker.models.category - INFO - Creating new category 'foods' for user admin@test.com
+2025-11-13 11:02:36,982 - tracker.serializers.category - INFO - Category created successfully with ID: 8
+2025-11-13 11:02:36,982 - tracker.views.category - INFO - Category 'foods' created successfully for user admin@test.com
+2025-11-13 11:02:36,992 - tracker.views.category - INFO - User admin@test.com accessed category list, 8 records returned
+2025-11-13 11:02:37,000 - tracker.views.category - INFO - User admin@test.com accessed category list, 8 records returned
+2025-11-13 11:02:55,198 - tracker.views.transactions - INFO - User admin@test.com attempting to create a transaction with data: {'type': 'expense', 'category': 8, 'note': 'food', 'amount': '50'}
+2025-11-13 11:02:55,199 - tracker.serializers.transactions - INFO - Validated transaction amount: 50.00
+2025-11-13 11:02:55,201 - tracker.models.transactions - INFO - Creating new transaction for user admin@test.com: expense - 50.00 in category foods
+2025-11-13 11:02:55,205 - tracker.views.transactions - INFO - User admin@test.com created a transaction of amount 50.00 in category foods
+2025-11-13 11:02:55,205 - tracker.views.transactions - INFO - Transaction created successfully for user admin@test.com
+2025-11-13 11:02:55,217 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-13 11:03:13,723 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-13 11:03:14,070 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-13 11:03:14,198 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-13 11:03:15,420 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-13 11:03:15,657 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-13 11:03:16,126 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-13 11:03:52,695 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-13 11:03:52,705 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-13 11:03:52,710 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-13 11:03:52,713 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-13 11:05:29,642 - tracker.views.category - INFO - User admin@test.com accessed category list, 8 records returned
+2025-11-13 11:05:29,642 - tracker.views.category - INFO - User admin@test.com accessed category list, 8 records returned
+2025-11-13 11:06:13,685 - tracker.views.category - INFO - User admin@test.com attempting to create category with data: {'name': 'food'}
+2025-11-13 11:06:13,686 - tracker.serializers.category - INFO - Creating custom category 'food' for user admin@test.com
+2025-11-13 11:06:13,686 - tracker.models.category - INFO - Creating new category 'food' for user admin@test.com
+2025-11-13 11:06:13,695 - tracker.serializers.category - INFO - Category created successfully with ID: 9
+2025-11-13 11:06:13,696 - tracker.views.category - INFO - Category 'food' created successfully for user admin@test.com
+2025-11-13 11:06:13,704 - tracker.views.category - INFO - User admin@test.com accessed category list, 9 records returned
+2025-11-13 11:06:23,566 - tracker.views.category - INFO - User admin@test.com accessed category detail view
+2025-11-13 11:06:23,567 - tracker.views.category - INFO - User admin@test.com deleted category 7
+2025-11-13 11:06:23,581 - tracker.views.category - INFO - User admin@test.com accessed category list, 8 records returned
+2025-11-13 11:06:49,587 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-13 11:06:49,587 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-13 11:06:49,597 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-13 11:06:49,600 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-13 11:07:12,271 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-13 11:07:12,272 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-13 11:07:12,285 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-13 11:07:12,285 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-13 11:07:36,914 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-13 11:07:36,920 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-13 11:07:36,926 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-13 11:07:36,930 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 04:33:30,614 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 04:33:30,625 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 04:33:30,628 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 04:33:30,630 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 04:44:54,904 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 04:44:54,904 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 04:44:54,914 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 04:44:54,914 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 04:46:53,016 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 04:46:53,017 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 04:46:53,025 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 04:46:53,025 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 04:51:15,488 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 04:51:15,499 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 04:51:15,504 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 04:51:15,507 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 05:02:03,498 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-14 05:02:03,519 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-14 05:04:37,812 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-14 05:04:37,835 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-14 05:04:40,705 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-14 05:04:40,722 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-14 05:05:35,302 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 05:05:35,311 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 05:05:35,314 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 05:05:35,316 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 05:59:23,797 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 05:59:23,813 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 05:59:23,815 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 05:59:23,817 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 05:59:38,725 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 05:59:38,726 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 05:59:38,731 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 05:59:38,733 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 06:05:19,930 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 06:05:19,943 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 06:05:19,952 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 06:05:19,955 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 06:05:37,295 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 06:05:37,310 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 06:05:37,314 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 06:05:37,318 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 07:20:14,072 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 07:20:14,088 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 07:20:14,090 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 07:20:14,093 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 07:23:58,710 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-14 07:23:58,724 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-14 07:24:05,732 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 07:24:05,737 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 07:24:05,739 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 07:24:05,743 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 07:24:19,563 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-14 07:24:19,575 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-14 07:25:04,637 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 07:25:04,642 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 07:25:04,648 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 07:25:04,652 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 07:25:06,576 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-14 07:25:06,587 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-14 07:25:08,870 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 07:25:08,872 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 07:25:08,874 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 07:25:08,876 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 07:25:11,777 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-14 07:25:11,791 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-14 07:25:18,587 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 07:25:18,588 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 07:25:18,593 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 07:25:18,594 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 07:25:33,511 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-14 07:25:33,520 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-14 07:25:38,650 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 07:25:38,654 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 07:25:38,658 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 07:25:38,663 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 07:32:23,526 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-14 07:32:23,527 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-14 07:32:36,613 - tracker.views.category - INFO - User admin@test.com accessed category list, 8 records returned
+2025-11-14 07:32:36,623 - tracker.views.category - INFO - User admin@test.com accessed category list, 8 records returned
+2025-11-14 07:33:15,591 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-14 07:33:17,288 - tracker.views.category - INFO - User admin@test.com accessed category list, 8 records returned
+2025-11-14 07:33:17,295 - tracker.views.category - INFO - User admin@test.com accessed category list, 8 records returned
+2025-11-14 07:33:32,360 - tracker.views.category - INFO - User admin@test.com attempting to create category with data: {'name': 'tt'}
+2025-11-14 07:33:32,362 - tracker.serializers.category - INFO - Creating custom category 'tt' for user admin@test.com
+2025-11-14 07:33:32,363 - tracker.models.category - INFO - Creating new category 'tt' for user admin@test.com
+2025-11-14 07:33:32,385 - tracker.serializers.category - INFO - Category created successfully with ID: 10
+2025-11-14 07:33:32,386 - tracker.views.category - INFO - Category 'tt' created successfully for user admin@test.com
+2025-11-14 07:33:32,396 - tracker.views.category - INFO - User admin@test.com accessed category list, 9 records returned
+2025-11-14 07:34:00,557 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-14 07:35:18,593 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-14 07:35:18,605 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-14 07:35:21,026 - tracker.views.category - INFO - User admin@test.com accessed category list, 9 records returned
+2025-11-14 07:35:21,036 - tracker.views.category - INFO - User admin@test.com accessed category list, 9 records returned
+2025-11-14 07:35:34,576 - tracker.views.category - INFO - User admin@test.com attempting to create category with data: {'name': 'tr'}
+2025-11-14 07:35:34,578 - tracker.serializers.category - INFO - Creating custom category 'tr' for user admin@test.com
+2025-11-14 07:35:34,579 - tracker.models.category - INFO - Creating new category 'tr' for user admin@test.com
+2025-11-14 07:35:34,583 - tracker.serializers.category - INFO - Category created successfully with ID: 11
+2025-11-14 07:35:34,583 - tracker.views.category - INFO - Category 'tr' created successfully for user admin@test.com
+2025-11-14 07:35:34,595 - tracker.views.category - INFO - User admin@test.com accessed category list, 10 records returned
+2025-11-14 07:35:38,448 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-14 07:35:44,555 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 07:35:44,566 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 07:35:44,571 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 07:35:44,576 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 07:38:13,568 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 07:38:13,581 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 07:38:13,585 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 07:38:13,588 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 07:42:03,447 - tracker.views.category - INFO - User admin@test.com accessed category list, 10 records returned
+2025-11-14 07:42:03,456 - tracker.views.category - INFO - User admin@test.com accessed category list, 10 records returned
+2025-11-14 07:44:10,678 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 07:44:10,678 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 07:44:10,690 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 07:44:10,690 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 07:48:48,770 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 07:48:48,795 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 07:48:48,803 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 07:48:48,805 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 07:48:55,987 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 07:48:55,988 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 07:48:55,990 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 07:48:55,991 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 07:48:59,031 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-14 07:48:59,040 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-14 07:49:05,468 - tracker.views.category - INFO - User admin@test.com accessed category list, 10 records returned
+2025-11-14 07:49:05,476 - tracker.views.category - INFO - User admin@test.com accessed category list, 10 records returned
+2025-11-14 07:49:08,364 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-14 07:49:09,459 - tracker.views.category - INFO - User admin@test.com accessed category list, 10 records returned
+2025-11-14 07:49:09,459 - tracker.views.category - INFO - User admin@test.com accessed category list, 10 records returned
+2025-11-14 07:49:15,463 - tracker.views.category - INFO - User admin@test.com accessed category detail view
+2025-11-14 07:49:15,466 - tracker.views.category - INFO - User admin@test.com deleted category 10
+2025-11-14 07:49:15,493 - tracker.views.category - INFO - User admin@test.com accessed category list, 9 records returned
+2025-11-14 07:49:20,462 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 07:49:20,466 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 07:49:20,469 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 07:49:20,473 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 08:02:28,912 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 08:02:28,913 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 08:02:28,923 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 08:02:28,923 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 08:41:32,417 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 08:41:32,419 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 08:41:32,429 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 08:41:32,429 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 09:48:12,366 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 09:48:12,383 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 09:48:12,385 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 09:48:12,387 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 09:48:25,509 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 09:48:25,512 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 09:48:25,514 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 09:48:25,516 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 09:48:26,754 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-14 09:48:26,754 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-14 09:48:32,402 - tracker.views.category - INFO - User admin@test.com accessed category list, 9 records returned
+2025-11-14 09:48:32,409 - tracker.views.category - INFO - User admin@test.com accessed category list, 9 records returned
+2025-11-14 09:48:36,374 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 09:48:36,379 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 09:48:36,385 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 09:48:36,392 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 09:48:42,500 - tracker.views.category - INFO - User admin@test.com accessed category list, 9 records returned
+2025-11-14 09:48:42,503 - tracker.views.category - INFO - User admin@test.com accessed category list, 9 records returned
+2025-11-14 09:48:49,345 - tracker.views.category - INFO - User admin@test.com attempting to create category with data: {'name': 'h'}
+2025-11-14 09:48:49,346 - tracker.serializers.category - INFO - Creating custom category 'h' for user admin@test.com
+2025-11-14 09:48:49,347 - tracker.models.category - INFO - Creating new category 'h' for user admin@test.com
+2025-11-14 09:48:49,356 - tracker.serializers.category - INFO - Category created successfully with ID: 12
+2025-11-14 09:48:49,357 - tracker.views.category - INFO - Category 'h' created successfully for user admin@test.com
+2025-11-14 09:48:49,364 - tracker.views.category - INFO - User admin@test.com accessed category list, 10 records returned
+2025-11-14 09:48:53,761 - tracker.views.category - INFO - User admin@test.com accessed category detail view
+2025-11-14 09:48:53,762 - tracker.views.category - INFO - User admin@test.com deleted category 12
+2025-11-14 09:48:53,779 - tracker.views.category - INFO - User admin@test.com accessed category list, 9 records returned

@@ -17,6 +17,7 @@ export const loginUser = async (email, password) => {
   try {
     const response = await axiosInstance.post('/login/', { email, password });
     localStorage.setItem('token', response.data.token);
+    console.log(response.data.token);
     return response.data;
   } catch (error) {
     throw error;
@@ -80,6 +81,24 @@ export const createCategory = async (data) => {
 export const fetchBudgetSummary = async () => {
   try {
     const response = await axiosInstance.get('/budget/monthly/');
+    return response.data;
+  } catch (error) {
+    throw error;
+  }
+};
+
+export const updateCategory = async (id, data) => {
+  try {
+    const response = await axiosInstance.put(`/categories/${id}/`, data);
+    return response.data;
+  } catch (error) {
+    throw error;
+  }
+};
+
+export const deleteCategory = async (id) => {
+  try {
+    const response = await axiosInstance.delete(`/categories/${id}/`);
     return response.data;
   } catch (error) {
     throw error;
