@@ -348,3 +348,7 @@ rest_framework.exceptions.ValidationError: {'category': [ErrorDetail(string='Thi
 2025-11-14 09:48:53,761 - tracker.views.category - INFO - User admin@test.com accessed category detail view
 2025-11-14 09:48:53,762 - tracker.views.category - INFO - User admin@test.com deleted category 12
 2025-11-14 09:48:53,779 - tracker.views.category - INFO - User admin@test.com accessed category list, 9 records returned
+2025-11-14 10:40:49,444 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 10:40:49,460 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-14 10:40:49,463 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-14 10:40:49,467 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00

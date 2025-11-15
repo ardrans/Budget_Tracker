@@ -13,6 +13,7 @@ import Dashboard from './components/dashboard/Dashboard';
 import TransactionList from './components/transactions/TransactionList';
 import CategoryList from './components/categories/CategoryList';
 import Budget from './components/budget/Budget';
+import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
 import './App.css'; 
 
 // Protected Route
@@ -44,7 +45,9 @@ function Navbar() {
     <nav className="navbar">
       <div className="nav-container">
         <div className="nav-brand">
-          <h2>Personal Budget Tracker</h2>
+            <AttachMoneyIcon />
+
+          <h2>Personal Budget Tracker</h2> 
         </div>
         <div className="nav-links">
           {navItems.map(item => (
