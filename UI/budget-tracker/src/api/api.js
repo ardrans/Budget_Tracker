@@ -17,9 +17,11 @@ export const loginUser = async (email, password) => {
   try {
     const response = await axiosInstance.post('/login/', { email, password });
     localStorage.setItem('token', response.data.token);
-    localStorage.setItem('currency', response.data.currency); 
-    localStorage.setItem('name', response.data.name); 
-    console.log(response.data.token);
+    if (response.data?.user) {
+      localStorage.setItem('currency', response.data.user.currency || 'INR');
+      localStorage.setItem('name', response.data.user.name || 'User');
+      localStorage.setItem('authUser', JSON.stringify({ ...response.data.user, token: response.data.token }));
+    }
     return response.data;
   } catch (error) {
     throw error;

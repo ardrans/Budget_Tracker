@@ -3,26 +3,43 @@ import { loginUser } from '../api/api';
 
 export const AuthContext = createContext();
 
-export const AuthProvider = ({ children }) => {
-  const [user, setUser] = useState(null);
+const getStoredUser = () => {
+  const storedUser = localStorage.getItem('authUser');
+  if (storedUser) {
+    try {
+      return JSON.parse(storedUser);
+    } catch {
+      return null;
+    }
+  }
+  const token = localStorage.getItem('token');
+  return token ? { token } : null;
+};
 
+export const AuthProvider = ({ children }) => {
+  const [user, setUser] = useState(getStoredUser);
 
   useEffect(() => {
-    const token = localStorage.getItem('token');
-    console.log(token);
-    if (token) setUser({ token }); 
-  }, []);
+    if (user) {
+      localStorage.setItem('authUser', JSON.stringify(user));
+    } else {
+      localStorage.removeItem('authUser');
+    }
+  }, [user]);
 
   const login = async (email, password) => {
     const data = await loginUser(email, password);
-    setUser(data.user);
+    const authUser = { ...data.user, token: data.token };
+    setUser(authUser);
     return data;
   };
 
   const logout = () => {
     localStorage.removeItem('token');
+    localStorage.removeItem('authUser');
+    localStorage.removeItem('currency');
+    localStorage.removeItem('name');
     setUser(null);
-    
   };
 
   return (

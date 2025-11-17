@@ -27,7 +27,7 @@ function ProtectedRoute({ children }) {
 // Navbar + Links
 function Navbar() {
   const { logout, user } = useContext(AuthContext);
-  const name = localStorage.getItem('name') || 'User';
+  const name = user?.name || localStorage.getItem('name') || 'User';
   const navigate = useNavigate();
 
   const navItems = [
