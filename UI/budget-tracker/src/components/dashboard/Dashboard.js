@@ -11,7 +11,6 @@ const Dashboard = () => {
 
   const currency = localStorage.getItem('currency') || 'INR';
 
-  // Formatter function
   const formatCurrency = (value) => {
     try {
       return new Intl.NumberFormat('en-IN', {
@@ -26,15 +25,21 @@ const Dashboard = () => {
   };
 
   useEffect(() => {
-    const fetchSummary = async () => {
+    const fetchData = async () => {
       try {
         const data = await fetchBudgetSummary(selectedYear, selectedMonth);
         setSummary(data);
       } catch (error) {
         console.error('Error fetching monthly summary:', error);
+        setSummary({
+          total_income: 0,
+          total_expense: 0,
+          balance: 0,
+          category_summary: [],
+        });
       }
     };
-    fetchSummary();
+    fetchData();
   }, [selectedYear, selectedMonth]);
 
   useEffect(() => {
@@ -47,20 +52,30 @@ const Dashboard = () => {
     d3.select('#income-expense-chart').selectAll('*').remove();
     d3.select('#category-chart').selectAll('*').remove();
 
-    // Pie chart: Income vs Expense
+    const tooltip = d3.select(".dashboard")
+      .append("div")
+      .style("position", "absolute")
+      .style("background", "#333")
+      .style("color", "#fff")
+      .style("padding", "6px 10px")
+      .style("border-radius", "6px")
+      .style("font-size", "12px")
+      .style("pointer-events", "none")
+      .style("opacity", 0);
+
     const pieData = [
       { label: 'Income', value: summary.total_income },
       { label: 'Expense', value: summary.total_expense },
     ];
 
-    const width = 300;
-    const height = 300;
+    const width = 320;
+    const height = 320;
     const radius = Math.min(width, height) / 2;
 
     const pieSvg = d3
       .select('#income-expense-chart')
       .append('svg')
-      .attr('width', width)
+      .attr('width', width + 120)
       .attr('height', height)
       .append('g')
       .attr('transform', `translate(${width / 2},${height / 2})`);
@@ -71,54 +86,123 @@ const Dashboard = () => {
       .domain(pieData.map((d) => d.label))
       .range(['#4caf50', '#f44336']);
 
-    pieSvg
-      .selectAll('path')
+    pieSvg.selectAll('path')
       .data(pie(pieData))
       .enter()
       .append('path')
       .attr('d', arc)
-      .attr('fill', (d) => color(d.data.label));
+      .attr('fill', (d) => color(d.data.label))
+      .on("mouseover", function (e, d) {
+        tooltip
+          .style("opacity", 1)
+          .html(`${d.data.label}: ${formatCurrency(d.data.value)}`);
+      })
+      .on("mousemove", function (e) {
+        tooltip.style("left", e.pageX + 15 + "px")
+               .style("top", e.pageY + "px");
+      })
+      .on("mouseout", function () {
+        tooltip.style("opacity", 0);
+      });
 
-    // Bar chart: Category expenses
+    const legend = pieSvg
+      .append('g')
+      .attr('transform', `translate(${radius + 20}, -${radius})`);
+
+    legend.selectAll('rect')
+      .data(pieData)
+      .enter()
+      .append('rect')
+      .attr('x', 0)
+      .attr('y', (_, i) => i * 20)
+      .attr('width', 12)
+      .attr('height', 12)
+      .attr('fill', (d) => color(d.label));
+
+    legend.selectAll('text')
+      .data(pieData)
+      .enter()
+      .append('text')
+      .attr('x', 20)
+      .attr('y', (_, i) => i * 20 + 10)
+      .style('font-size', '12px')
+      .text((d) => d.label);
+
+    // BAR CHART: Category Summary
+    const barWidth = 350;
+    const barHeight = 300;
     const catData = summary.category_summary;
+
     const catSvg = d3
       .select('#category-chart')
       .append('svg')
-      .attr('width', width)
-      .attr('height', height);
+      .attr('width', barWidth + 80)
+      .attr('height', barHeight);
 
-    const x = d3
-      .scaleBand()
+    const x = d3.scaleBand()
       .domain(catData.map((d) => d.category))
-      .range([0, width])
+      .range([40, barWidth])
       .padding(0.2);
 
-    const y = d3
-      .scaleLinear()
-      .domain([0, d3.max(catData, (d) => d.total)])
+    const y = d3.scaleLinear()
+      .domain([0, d3.max(catData, (d) => d.total) || 1])
       .nice()
-      .range([height - 30, 0]);
+      .range([barHeight - 30, 20]);
 
-    catSvg
-      .append('g')
-      .attr('transform', `translate(0,${height - 30})`)
+    catSvg.append('g')
+      .attr('transform', `translate(0,${barHeight - 30})`)
       .call(d3.axisBottom(x));
 
-    catSvg
-      .append('g')
-      .attr('transform', 'translate(30,0)')
+    catSvg.append('g')
+      .attr('transform', 'translate(40,0)')
       .call(d3.axisLeft(y));
 
-    catSvg
-      .selectAll('rect')
+    catSvg.selectAll('rect.bar')
       .data(catData)
       .enter()
       .append('rect')
+      .attr('class', 'bar')
       .attr('x', (d) => x(d.category))
       .attr('y', (d) => y(d.total))
       .attr('width', x.bandwidth())
-      .attr('height', (d) => height - 30 - y(d.total))
+      .attr('height', (d) => barHeight - 30 - y(d.total))
+      .attr('fill', '#2196f3')
+      .on("mouseover", function (e, d) {
+        tooltip
+          .style("opacity", 1)
+          .html(`${d.category}: ${formatCurrency(d.total)}`);
+      })
+      .on("mousemove", function (e) {
+        tooltip.style("left", e.pageX + 15 + "px")
+               .style("top", e.pageY + "px");
+      })
+      .on("mouseout", function () {
+        tooltip.style("opacity", 0);
+      });
+
+    catSvg.selectAll('text.value')
+      .data(catData)
+      .enter()
+      .append('text')
+      .attr('class', 'value')
+      .attr('x', (d) => x(d.category) + x.bandwidth() / 2)
+      .attr('y', (d) => y(d.total) - 5)
+      .attr('text-anchor', 'middle')
+      .style('font-size', '12px')
+      .text((d) => formatCurrency(d.total));
+
+    catSvg.append('rect')
+      .attr('x', barWidth + 20)
+      .attr('y', 20)
+      .attr('width', 12)
+      .attr('height', 12)
       .attr('fill', '#2196f3');
+
+    catSvg.append('text')
+      .attr('x', barWidth + 40)
+      .attr('y', 30)
+      .style('font-size', '12px')
+      .text('Total');
   };
 
   const monthNames = [

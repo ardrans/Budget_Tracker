@@ -26,10 +26,8 @@ export default function TransactionForm({ open, onClose, editTransaction }) {
   const loadCategories = async (filterType = null) => {
     try {
       const data = await fetchCategories(filterType);
-      // Ensure data is an array
       const categoriesList = Array.isArray(data) ? data : [];
       setCategories(categoriesList);
-      // If category was set but is no longer in the filtered list, reset it
       if (category && !categoriesList.find(c => c.id.toString() === category.toString())) {
         setCategory('');
       }
@@ -65,10 +63,8 @@ export default function TransactionForm({ open, onClose, editTransaction }) {
   }, [editTransaction]);
 
   useEffect(() => {
-    // Reload categories when type changes
     if (type) {
       loadCategories(type);
-      // Reset category when type changes (unless editing and type matches editTransaction type)
       if (!editTransaction || editTransaction.type !== type) {
         setCategory('');
       }
@@ -85,11 +81,8 @@ export default function TransactionForm({ open, onClose, editTransaction }) {
       return;
     }
     try {
-      // Create new category with the same type as the transaction
       const createdCategory = await createCategory({ name: newCategory, type: type });
 
-      // Get the category ID from the response (structure: {message: "...", data: {id, name, ...}})
-      // The API returns {message: "...", data: {id, name, ...}}
       const categoryId = createdCategory.data?.id || createdCategory.id;
       const newCategoryObj = {
         id: categoryId,
@@ -97,23 +90,18 @@ export default function TransactionForm({ open, onClose, editTransaction }) {
         type: type
       };
       
-      // Immediately add the new category to the list, regardless of type filter
-      // This ensures the user sees it right away
+    
       setCategories(prevCategories => {
-        // Check if category already exists to avoid duplicates
         const exists = prevCategories.find(c => c.id === categoryId || c.name === newCategory);
         if (exists) return prevCategories;
         return [...prevCategories, newCategoryObj];
       });
 
-      // Automatically select the newly added category
       setCategory(categoryId);
 
-      // Reset new category input
       setNewCategory('');
       setCreatingCategory(false);
       
-      // Clear any error messages
       setError('');
     } catch (err) {
       console.error('Error creating category:', err);

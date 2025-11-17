@@ -6,6 +6,7 @@ import {
   Navigate,
   useLocation,
   useNavigate,
+  Link,
 } from 'react-router-dom';
 import { AuthProvider, AuthContext } from './contexts/AuthContext';
 import Login from './components/auth/Login';
@@ -16,7 +17,7 @@ import Budget from './components/budget/Budget';
 import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
 import './App.css'; 
 
-// Protected Route
+// ProtectedRoute component
 function ProtectedRoute({ children }) {
   const { user } = useContext(AuthContext);
   if (!user) return <Navigate to="/login" />;
@@ -26,10 +27,8 @@ function ProtectedRoute({ children }) {
 // Navbar + Links
 function Navbar() {
   const { logout, user } = useContext(AuthContext);
-  const name = localStorage.getItem('name');
-
-  const history = useNavigate();
-
+  const name = localStorage.getItem('name') || 'User';
+  const navigate = useNavigate();
 
   const navItems = [
     { label: 'Dashboard', path: '/dashboard' },
@@ -40,27 +39,26 @@ function Navbar() {
 
   const handleLogout = () => {
     logout();          
-    history('/login'); 
+    navigate('/login'); 
   };
 
   return (
     <nav className="navbar">
       <div className="nav-container">
         <div className="nav-brand">
-            <AttachMoneyIcon />
-
+          <AttachMoneyIcon />
           <h2>Personal Budget Tracker</h2> 
         </div>
         <div className="nav-links">
           {navItems.map(item => (
-            <a key={item.label} href={item.path} className="nav-link">
+            <Link key={item.label} to={item.path} className="nav-link">
               {item.label}
-            </a>
+            </Link>
           ))}
         </div>
         {user && (
           <div className="nav-user">
-            <span className="username">{name}</span>
+            <span className="username">Hi, {name}</span>
             <button className="logout-button" onClick={handleLogout}>Logout</button>
           </div>
         )}
@@ -69,7 +67,6 @@ function Navbar() {
   );
 }
 
-// Main Layout
 function Layout() {
   const location = useLocation();
   const hideLayout = location.pathname === '/login';
@@ -80,27 +77,28 @@ function Layout() {
       <div className="main-content">
         <Routes>
           <Route path="/login" element={<Login />} />
+
+          {/* Protected routes */}
           <Route
             path="/dashboard"
-            element={<Dashboard />}
+            element={<ProtectedRoute><Dashboard /></ProtectedRoute>}
           />
           <Route
             path="/transactions"
-            element={<TransactionList />}
+            element={<ProtectedRoute><TransactionList /></ProtectedRoute>}
           />
           <Route
             path="/categories"
-            element={<CategoryList />}
-          />
-          <Route
-            path="/logout"
-            element={<Login />}
+            element={<ProtectedRoute><CategoryList /></ProtectedRoute>}
           />
           <Route
             path="/budget"
-            element={<Budget />}
+            element={<ProtectedRoute><Budget /></ProtectedRoute>}
           />
-          <Route path="*" element={<Navigate to="/dashboard" />} />
+
+          <Route path="/" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
+
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </div>
     </div>

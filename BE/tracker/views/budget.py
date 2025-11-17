@@ -18,7 +18,6 @@ class MonthlyBudgetSummaryView(APIView):
     def get(self, request):
         try:
             user = request.user
-            # Get month and year from query parameters, default to current month
             year = request.query_params.get('year', None)
             month = request.query_params.get('month', None)
             

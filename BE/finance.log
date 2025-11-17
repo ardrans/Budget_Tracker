@@ -1563,3 +1563,175 @@ rest_framework.exceptions.ValidationError: {'month': [ErrorDetail(string='Date h
 2025-11-16 14:23:28,130 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
 2025-11-16 14:23:28,135 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
 2025-11-16 14:23:28,142 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 04:16:18,298 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 04:16:18,308 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 04:16:18,311 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 04:16:18,313 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 04:16:39,945 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 04:16:39,947 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 04:16:39,952 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 04:16:39,953 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 04:18:30,084 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 04:18:30,085 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 04:18:30,091 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 04:18:30,091 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 04:18:36,718 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-17 04:18:36,727 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-17 04:18:40,740 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 3 records returned
+2025-11-17 04:18:40,767 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 3 records returned
+2025-11-17 04:18:45,439 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 04:18:45,445 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 04:18:45,449 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 04:18:45,453 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 04:21:31,551 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for July 2025
+2025-11-17 04:21:31,558 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=0
+2025-11-17 04:21:33,364 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for July 2024
+2025-11-17 04:21:33,371 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=0
+2025-11-17 04:21:36,649 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for January 2024
+2025-11-17 04:21:36,656 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=0
+2025-11-17 04:21:38,760 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 04:21:38,765 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 04:21:38,768 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 04:21:38,772 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 04:28:42,002 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 04:28:42,006 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 04:28:42,008 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 04:28:42,011 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 04:30:56,716 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 04:30:56,717 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 04:30:56,724 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 04:30:56,724 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 04:49:17,339 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 3 records returned
+2025-11-17 04:49:17,339 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 3 records returned
+2025-11-17 04:49:19,911 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 04:49:19,922 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 04:49:19,928 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 04:49:19,934 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 04:49:25,497 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 3 records returned
+2025-11-17 04:49:25,497 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 3 records returned
+2025-11-17 04:49:30,826 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 04:49:30,827 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 04:49:30,832 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 04:49:30,832 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 04:53:00,891 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 04:53:00,898 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:15:19,657 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:15:19,658 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:15:19,669 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:15:19,669 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:15:29,931 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 3 records returned
+2025-11-17 05:15:29,942 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 3 records returned
+2025-11-17 05:15:32,287 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:15:32,287 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:15:32,293 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:15:32,293 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:22:18,063 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:22:18,075 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:22:18,077 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:22:18,080 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:22:39,611 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:22:39,613 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:22:39,615 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:22:39,618 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:22:43,471 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:22:43,477 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:22:43,481 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:22:43,488 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:22:56,703 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:22:56,707 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:22:56,710 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:22:56,713 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:24:35,014 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:24:35,019 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:24:35,022 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:24:35,025 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:26:55,469 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:26:55,475 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:28:22,334 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:28:22,335 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:28:22,343 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:28:22,346 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:39:01,084 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:39:01,085 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:39:01,090 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:39:01,090 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:39:11,429 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:39:11,433 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:39:11,436 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:39:11,440 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:39:21,797 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:39:21,799 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:39:21,801 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:39:21,803 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:39:23,455 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 3 records returned
+2025-11-17 05:39:23,472 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 3 records returned
+2025-11-17 05:39:28,304 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-17 05:39:28,311 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-17 05:39:31,256 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:39:31,263 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:39:31,279 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:39:31,283 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:40:02,667 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:40:02,670 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:40:02,672 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:40:02,674 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:40:04,270 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:40:04,274 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:40:04,277 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:40:04,281 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:40:05,914 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 3 records returned
+2025-11-17 05:40:05,929 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 3 records returned
+2025-11-17 05:40:06,904 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:40:06,904 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:40:06,910 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:40:06,910 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:43:13,792 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:43:13,793 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:43:13,803 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:43:13,803 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:43:17,196 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:43:17,197 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:43:17,202 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:43:17,202 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:43:21,150 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:43:21,150 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:43:21,153 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:43:21,153 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:43:31,573 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 3 records returned
+2025-11-17 05:43:31,573 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 3 records returned
+2025-11-17 05:45:42,677 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:45:42,681 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:45:42,683 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:45:42,686 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:45:45,148 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 3 records returned
+2025-11-17 05:45:45,158 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 3 records returned
+2025-11-17 05:45:46,842 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-17 05:45:46,843 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-17 05:45:48,602 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:45:48,610 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:45:48,614 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:45:48,618 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:46:18,588 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:46:18,588 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:46:18,591 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:46:18,591 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:46:20,519 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 3 records returned
+2025-11-17 05:46:20,533 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 3 records returned
+2025-11-17 05:46:21,284 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-17 05:46:21,290 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-17 05:46:22,992 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:46:22,992 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:46:22,998 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:46:22,998 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:46:45,787 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:46:45,788 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:46:45,791 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:46:45,791 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:47:08,362 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:47:08,362 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:47:08,368 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:47:08,369 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:47:16,770 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:47:16,770 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-17 05:47:16,772 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 05:47:16,773 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00

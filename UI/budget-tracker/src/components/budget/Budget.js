@@ -132,24 +132,7 @@ export default function Budget() {
         </PieChart>
       </div>
 
-      {/* Optional: Budget List Section (if you want to list individual items) */}
-      {/* <div className="budget-list-section">
-        <h3>Budget Items</h3>
-        <div className="budget-list">
-          {categoryData.map((item, index) => (
-            <div className="budget-item" key={index}>
-              <div className="budget-item-info">
-                <h4>{item.name}</h4>
-              </div>
-              <p className="budget-amount">{item.value}</p>
-              <div className="budget-item-actions">
-                <button className="btn-edit">Edit</button>
-                <button className="btn-delete">Delete</button>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div> */}
+     
     </div>
   );
 }

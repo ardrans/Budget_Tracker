@@ -43,7 +43,7 @@ export default function TransactionList() {
 
 
   useEffect(() => { 
-    setPage(1); // Reset to first page when filters change
+    setPage(1); 
   }, [filter.type, filter.category, filter.search, filter.transaction_date, filter.amount_min, filter.amount_max]);
   
   useEffect(() => { 

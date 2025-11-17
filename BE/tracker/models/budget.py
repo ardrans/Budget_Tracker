@@ -6,7 +6,7 @@ logger = get_logger(__name__)
 
 class Budget(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='budgets')
-    month = models.DateField()  # first day of the month
+    month = models.DateField()
     amount = models.DecimalField(max_digits=10, decimal_places=2)
     created_at = models.DateTimeField(auto_now_add=True)
 
