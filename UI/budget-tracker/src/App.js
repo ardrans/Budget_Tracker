@@ -72,36 +72,48 @@ function Layout() {
   const hideLayout = location.pathname === '/login';
 
   return (
-    <div className="layout">
-      {!hideLayout && <Navbar />}
-      <div className="main-content">
-        <Routes>
-          <Route path="/login" element={<Login />} />
+   <Routes>
 
-          {/* Protected routes */}
-          <Route
-            path="/dashboard"
-            element={<ProtectedRoute><Dashboard /></ProtectedRoute>}
-          />
-          <Route
-            path="/transactions"
-            element={<ProtectedRoute><TransactionList /></ProtectedRoute>}
-          />
-          <Route
-            path="/categories"
-            element={<ProtectedRoute><CategoryList /></ProtectedRoute>}
-          />
-          <Route
-            path="/budget"
-            element={<ProtectedRoute><Budget /></ProtectedRoute>}
-          />
+    <Route path="/login" element={<Login />} />
 
-          <Route path="/" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
+    <Route
+      path="*"
+      element={
+        <div className="layout">
+          {!hideLayout && <Navbar />}
 
-          <Route path="*" element={<Navigate to="/" />} />
-        </Routes>
-      </div>
-    </div>
+          <div className="main-content">
+            <Routes>
+              <Route
+                path="/dashboard"
+                element={<ProtectedRoute><Dashboard /></ProtectedRoute>}
+              />
+              <Route
+                path="/transactions"
+                element={<ProtectedRoute><TransactionList /></ProtectedRoute>}
+              />
+              <Route
+                path="/categories"
+                element={<ProtectedRoute><CategoryList /></ProtectedRoute>}
+              />
+              <Route
+                path="/budget"
+                element={<ProtectedRoute><Budget /></ProtectedRoute>}
+              />
+              <Route
+                path="/"
+                element={<ProtectedRoute><Dashboard /></ProtectedRoute>}
+              />
+
+              {/* Default fallback */}
+              <Route path="*" element={<Navigate to="/" />} />
+            </Routes>
+          </div>
+        </div>
+      }
+    />
+
+  </Routes>
   );
 }
 

@@ -21,14 +21,7 @@ export default function Login() {
   };
 
   return (
-    <div
-    style={{
-      width: "100vw",
-      height: "100vh",
-      overflow: "hidden",   
-      margin: 0,
-      padding: 0
-    }}>
+    
     <div className="login-container">
       <div className="login-card">
         <div className="login-header">
@@ -73,6 +66,6 @@ export default function Login() {
         </div>
       </div>
     </div>
-    </div>
+    
   );
 }
