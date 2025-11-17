@@ -1735,3 +1735,9 @@ rest_framework.exceptions.ValidationError: {'month': [ErrorDetail(string='Date h
 2025-11-17 05:47:16,770 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
 2025-11-17 05:47:16,772 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
 2025-11-17 05:47:16,773 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-17 14:46:09,468 - tracker.models.users - INFO - Saving user: admin@example.com
+2025-11-17 14:46:09,802 - tracker.models.category - INFO - Creating new category 'Salary' for user admin@example.com
+2025-11-17 14:46:10,118 - tracker.models.category - INFO - Creating new category 'Rent' for user admin@example.com
+2025-11-17 14:46:10,415 - tracker.models.category - INFO - Creating new category 'Groceries' for user admin@example.com
+2025-11-17 14:46:10,723 - tracker.models.category - INFO - Creating new category 'Entertainment' for user admin@example.com
+2025-11-17 14:46:10,961 - tracker.models.category - INFO - Creating new category 'Misc' for user admin@example.com

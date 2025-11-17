@@ -1,6 +1,19 @@
 # Generated manually for adding transaction_date field
 
 from django.db import migrations, models
+from django.db.models.functions import TruncDate
+
+
+def populate_transaction_date(apps, schema_editor):
+    Transaction = apps.get_model('tracker', 'Transaction')
+    Transaction.objects.filter(transaction_date__isnull=True).update(
+        transaction_date=TruncDate('created_at')
+    )
+
+
+def reset_transaction_date(apps, schema_editor):
+    Transaction = apps.get_model('tracker', 'Transaction')
+    Transaction.objects.update(transaction_date=None)
 
 
 class Migration(migrations.Migration):
@@ -10,54 +23,19 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        # Step 1: Add the column if it doesn't exist (using raw SQL to handle existing column)
-        migrations.RunSQL(
-            sql="""
-                SET @col_exists = (
-                    SELECT COUNT(*) FROM INFORMATION_SCHEMA.COLUMNS
-                    WHERE TABLE_SCHEMA = DATABASE()
-                    AND TABLE_NAME = 'tracker_transaction'
-                    AND COLUMN_NAME = 'transaction_date'
-                );
-                
-                SET @sql_query = IF(@col_exists = 0,
-                    'ALTER TABLE tracker_transaction ADD COLUMN transaction_date DATE NULL',
-                    'SELECT 1 as dummy'
-                );
-                
-                PREPARE stmt FROM @sql_query;
-                EXECUTE stmt;
-                DEALLOCATE PREPARE stmt;
-            """,
-            reverse_sql="ALTER TABLE tracker_transaction DROP COLUMN IF EXISTS transaction_date",
+        migrations.AddField(
+            model_name='transaction',
+            name='transaction_date',
+            field=models.DateField(null=True, blank=True),
         ),
-        # Step 2: Populate existing rows with created_at date
-        migrations.RunSQL(
-            sql="""
-                UPDATE tracker_transaction
-                SET transaction_date = DATE(created_at)
-                WHERE transaction_date IS NULL;
-            """,
-            reverse_sql=migrations.RunSQL.noop,
+        migrations.RunPython(
+            code=populate_transaction_date,
+            reverse_code=reset_transaction_date,
         ),
-        # Step 3: Make field non-nullable (state operation only since column already exists)
-        # We need to use SeparateDatabaseAndState to only update state
-        migrations.SeparateDatabaseAndState(
-            database_operations=[
-                # Column already exists from RunSQL, just make it non-nullable
-                migrations.RunSQL(
-                    sql="ALTER TABLE tracker_transaction MODIFY COLUMN transaction_date DATE NOT NULL;",
-                    reverse_sql="ALTER TABLE tracker_transaction MODIFY COLUMN transaction_date DATE NULL;",
-                ),
-            ],
-            state_operations=[
-                # Update Django model state
-                migrations.AddField(
-                    model_name='transaction',
-                    name='transaction_date',
-                    field=models.DateField(),
-                ),
-            ],
+        migrations.AlterField(
+            model_name='transaction',
+            name='transaction_date',
+            field=models.DateField(),
         ),
     ]
 

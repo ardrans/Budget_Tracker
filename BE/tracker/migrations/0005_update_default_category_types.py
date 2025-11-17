@@ -28,3 +28,4 @@ class Migration(migrations.Migration):
         migrations.RunPython(update_default_category_types, reverse_update),
     ]
 
+
