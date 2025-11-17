@@ -56,7 +56,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "https://budget-tracker-ui.onrender.com",
+    "budget-tracker-two-khaki.vercel.app",
 ]
 
 ROOT_URLCONF = 'budget_tracker.urls'
