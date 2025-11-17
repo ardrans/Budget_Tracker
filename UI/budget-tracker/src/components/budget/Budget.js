@@ -10,11 +10,14 @@ export default function Budget() {
   const [categoryData, setCategoryData] = useState([]);
   const [remaining, setRemaining] = useState(0);
   const [inputBudget, setInputBudget] = useState('');
+  const today = new Date();
+  const [selectedYear, setSelectedYear] = useState(today.getFullYear());
+  const [selectedMonth, setSelectedMonth] = useState(today.getMonth() + 1);
 
   const COLORS = ['#0088FE','#00C49F','#FFBB28','#FF8042','#AA336A'];
 
   const loadBudget = async () => {
-    const data = await fetchBudgetSummary();
+    const data = await fetchBudgetSummary(selectedYear, selectedMonth);
     setBudget(data.budget);
     setInputBudget(data.budget);
     setExpense(data.total_expense);
@@ -22,19 +25,58 @@ export default function Budget() {
     setRemaining(data.remaining_budget);
   };
 
-  useEffect(() => { loadBudget(); }, []);
+  useEffect(() => { loadBudget(); }, [selectedYear, selectedMonth]);
 
   const handleUpdate = async () => {
-    await updateBudget({ amount: inputBudget });
+    await updateBudget({ amount: inputBudget, year: selectedYear, month: selectedMonth });
     loadBudget();
   };
+
+  const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
+    'July', 'August', 'September', 'October', 'November', 'December'];
+  
+  const years = [];
+  const currentYear = new Date().getFullYear();
+  for (let i = currentYear - 5; i <= currentYear + 1; i++) {
+    years.push(i);
+  }
 
   return (
     <div className="budget-management">
       {/* Header */}
       <div className="budget-header">
-        <h1>Budget Summary</h1>
-        <p>Overview of your monthly budget, expenses, and remaining funds.</p>
+        <div>
+          <h1>Budget Summary</h1>
+          <p>Overview of your monthly budget, expenses, and remaining funds.</p>
+        </div>
+        <div className="date-filter">
+          <div className="filter-group">
+            <label htmlFor="budget-month-select">Month:</label>
+            <select 
+              id="budget-month-select"
+              value={selectedMonth} 
+              onChange={e => setSelectedMonth(parseInt(e.target.value))}
+              className="month-year-select"
+            >
+              {monthNames.map((month, index) => (
+                <option key={index + 1} value={index + 1}>{month}</option>
+              ))}
+            </select>
+          </div>
+          <div className="filter-group">
+            <label htmlFor="budget-year-select">Year:</label>
+            <select 
+              id="budget-year-select"
+              value={selectedYear} 
+              onChange={e => setSelectedYear(parseInt(e.target.value))}
+              className="month-year-select"
+            >
+              {years.map(year => (
+                <option key={year} value={year}>{year}</option>
+              ))}
+            </select>
+          </div>
+        </div>
       </div>
 
       {/* Budget Overview Cards */}

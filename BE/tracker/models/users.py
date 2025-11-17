@@ -6,7 +6,13 @@ from tracker.logger import get_logger
 
 logger = get_logger(__name__)  
 
-DEFAULT_CATEGORIES = ['Salary', 'Rent', 'Groceries', 'Entertainment', 'Misc']
+DEFAULT_CATEGORIES = [
+    {'name': 'Salary', 'type': 'income'},
+    {'name': 'Rent', 'type': 'expense'},
+    {'name': 'Groceries', 'type': 'expense'},
+    {'name': 'Entertainment', 'type': 'expense'},
+    {'name': 'Misc', 'type': 'expense'}
+]
 
 class UserManager(BaseUserManager):
     def create_user(self, email, password=None, **extra_fields):
@@ -27,6 +33,7 @@ class User(AbstractBaseUser):
     email = models.EmailField(unique=True, max_length=50)
     name = models.TextField()
     phone = models.BigIntegerField(unique=True)
+    currency = models.CharField(max_length=10, default="INR")
     is_active = models.BooleanField(default=True)
     is_staff = models.BooleanField(default=False)
     is_superuser = models.BooleanField(default=False)
@@ -48,4 +55,4 @@ def create_default_categories(sender, instance, created, **kwargs):
     if created:
         from tracker.models.category import Category
         for cat in DEFAULT_CATEGORIES:
-            Category.objects.create(user=instance, name=cat, is_custom=False)
+            Category.objects.create(user=instance, name=cat['name'], type=cat['type'], is_custom=False)

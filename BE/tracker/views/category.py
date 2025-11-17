@@ -15,6 +15,12 @@ class CategoryListCreateView(generics.ListCreateAPIView):
     def get_queryset(self):
         try:
             queryset = Category.objects.filter(user=self.request.user)
+            
+            # Filter by category type if provided (income or expense)
+            category_type = self.request.query_params.get('type', None)
+            if category_type in ['income', 'expense']:
+                queryset = queryset.filter(type=category_type)
+            
             logger.info(f"User {self.request.user.email} accessed category list, {queryset.count()} records returned")
             return queryset
         except Exception as e:

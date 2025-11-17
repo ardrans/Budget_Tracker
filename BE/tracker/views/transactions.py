@@ -21,9 +21,9 @@ class TransactionListCreateView(generics.ListCreateAPIView):
     permission_classes = [IsAuthenticated]
     pagination_class = TransactionPagination
     filter_backends = [DjangoFilterBackend, filters.OrderingFilter, filters.SearchFilter]
-    filterset_fields = ['category', 'type', 'amount', 'created_at']
+    filterset_fields = ['category', 'type', 'amount', 'transaction_date', 'created_at']
     search_fields = ['note']
-    ordering_fields = ['created_at', 'amount']
+    ordering_fields = ['transaction_date', 'created_at', 'amount']
 
     def get_queryset(self):
         try:

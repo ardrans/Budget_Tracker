@@ -9,13 +9,30 @@ export default function TransactionList() {
   const [page, setPage] = useState(1);
   const [limit] = useState(10);
   const [totalPages, setTotalPages] = useState(1);
-  const [filter, setFilter] = useState({ type: '', category: '', search: '' });
+  const [filter, setFilter] = useState({ 
+    type: '', 
+    category: '', 
+    search: '',
+    transaction_date: '',
+    amount_min: '',
+    amount_max: ''
+  });
   const [openForm, setOpenForm] = useState(false);
   const [editTransaction, setEditTransaction] = useState(null);
+  
 
   const loadTransactions = async () => {
     try {
-      const params = { page, page_size: limit, ...filter };
+      const params = { page, page_size: limit };
+      
+      // Add filters if they have values
+      if (filter.type) params.type = filter.type;
+      if (filter.category) params.category = filter.category;
+      if (filter.search) params.search = filter.search;
+      if (filter.transaction_date) params.transaction_date = filter.transaction_date;
+      if (filter.amount_min) params.amount__gte = filter.amount_min;
+      if (filter.amount_max) params.amount__lte = filter.amount_max;
+      
       const data = await fetchTransactions(params);
       setTransactions(data.results);
       setTotalPages(Math.ceil(data.count / limit));
@@ -24,7 +41,14 @@ export default function TransactionList() {
     }
   };
 
-  useEffect(() => { loadTransactions(); }, [page, filter]);
+
+  useEffect(() => { 
+    setPage(1); // Reset to first page when filters change
+  }, [filter.type, filter.category, filter.search, filter.transaction_date, filter.amount_min, filter.amount_max]);
+  
+  useEffect(() => { 
+    loadTransactions(); 
+  }, [page, filter.type, filter.category, filter.search, filter.transaction_date, filter.amount_min, filter.amount_max]);
 
   const handleDelete = async (id) => {
     if (window.confirm('Are you sure?')) {
@@ -53,6 +77,34 @@ export default function TransactionList() {
               <option value="income">Income</option>
               <option value="expense">Expense</option>
             </select>
+          </div>
+          <div className="filter-group">
+            <label>Transaction Date</label>
+            <input
+              type="date"
+              value={filter.transaction_date}
+              onChange={e => setFilter({ ...filter, transaction_date: e.target.value })}
+            />
+          </div>
+          <div className="filter-group">
+            <label>Min Amount</label>
+            <input
+              type="number"
+              value={filter.amount_min}
+              onChange={e => setFilter({ ...filter, amount_min: e.target.value })}
+              placeholder="0.00"
+              step="0.01"
+            />
+          </div>
+          <div className="filter-group">
+            <label>Max Amount</label>
+            <input
+              type="number"
+              value={filter.amount_max}
+              onChange={e => setFilter({ ...filter, amount_max: e.target.value })}
+              placeholder="0.00"
+              step="0.01"
+            />
           </div>
           <div className="filter-group">
             <label>Search</label>
@@ -85,12 +137,12 @@ export default function TransactionList() {
                   <td>
                     <span className={`type-badge ${tx.type}`}>{tx.type}</span>
                   </td>
-                  <td>{tx.category || <span className="no-category">No Category</span>}</td>
+                  <td>{tx.category_name || <span className="no-category">No Category</span>}</td>
                   <td>{tx.note}</td>
                   <td className={tx.type === 'income' ? 'amount-income' : 'amount-expense'}>
                     {tx.amount}
                   </td>
-                  <td>{new Date(tx.created_at).toLocaleDateString()}</td>
+                  <td>{tx.transaction_date ? new Date(tx.transaction_date).toLocaleDateString() : new Date(tx.created_at).toLocaleDateString()}</td>
                   <td className="action-buttons">
                     <button className="btn-edit" onClick={() => { setOpenForm(true); setEditTransaction(tx); }}>Edit</button>
                     <button className="btn-delete" onClick={() => handleDelete(tx.id)}>Delete</button>

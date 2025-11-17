@@ -17,6 +17,8 @@ export const loginUser = async (email, password) => {
   try {
     const response = await axiosInstance.post('/login/', { email, password });
     localStorage.setItem('token', response.data.token);
+    localStorage.setItem('currency', response.data.currency); 
+    localStorage.setItem('name', response.data.name); 
     console.log(response.data.token);
     return response.data;
   } catch (error) {
@@ -60,9 +62,13 @@ export const deleteTransaction = async (id) => {
   }
 };
 
-export const fetchCategories = async () => {
+export const fetchCategories = async (type = null) => {
   try {
-    const response = await axiosInstance.get('/categories/');
+    const params = {};
+    if (type) {
+      params.type = type;
+    }
+    const response = await axiosInstance.get('/categories/', { params });
     return response.data;
   } catch (error) {
     throw error;
@@ -78,9 +84,14 @@ export const createCategory = async (data) => {
   }
 };
 
-export const fetchBudgetSummary = async () => {
+export const fetchBudgetSummary = async (year = null, month = null) => {
   try {
-    const response = await axiosInstance.get('/budget/monthly/');
+    const params = {};
+    if (year && month) {
+      params.year = year;
+      params.month = month;
+    }
+    const response = await axiosInstance.get('/budget/monthly/', { params });
     return response.data;
   } catch (error) {
     throw error;
@@ -107,7 +118,12 @@ export const deleteCategory = async (id) => {
 
 export const updateBudget = async (data) => {
   try {
-    const response = await axiosInstance.put('/budget/', data);
+    const params = {};
+    if (data.year && data.month) {
+      params.year = data.year;
+      params.month = data.month;
+    }
+    const response = await axiosInstance.put('/budget/', data, { params });
     return response.data;
   } catch (error) {
     throw error;

@@ -63,7 +63,6 @@ const CategoryList = () => {
             <TableHead>
               <TableRow>
                 <TableCell>Name</TableCell>
-                <TableCell>Type</TableCell>
                 <TableCell>Actions</TableCell>
               </TableRow>
             </TableHead>
@@ -71,7 +70,6 @@ const CategoryList = () => {
               {categories.map((cat) => (
                 <TableRow key={cat.id}>
                   <TableCell>{cat.name}</TableCell>
-                  <TableCell>{cat.is_custom ? 'Custom' : 'Default'}</TableCell>
                   <TableCell>
                     {cat.is_custom && (
                       <>

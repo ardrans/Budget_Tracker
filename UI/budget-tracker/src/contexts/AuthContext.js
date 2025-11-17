@@ -10,7 +10,7 @@ export const AuthProvider = ({ children }) => {
   useEffect(() => {
     const token = localStorage.getItem('token');
     console.log(token);
-    if (token) setUser({ token }); // minimal, can fetch user info if needed
+    if (token) setUser({ token }); 
   }, []);
 
   const login = async (email, password) => {

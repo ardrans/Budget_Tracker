@@ -8,7 +8,7 @@ logger = get_logger(__name__)
 class CategorySerializer(serializers.ModelSerializer):
     class Meta:
         model = Category
-        fields = ['id', 'user', 'name', 'created_at', 'is_custom']
+        fields = ['id', 'user', 'name', 'type', 'created_at', 'is_custom']
         read_only_fields = ['user', 'created_at', 'is_custom']
 
     def create(self, validated_data):

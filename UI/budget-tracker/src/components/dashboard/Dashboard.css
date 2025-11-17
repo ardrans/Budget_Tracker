@@ -13,6 +13,50 @@
 
 .dashboard-header {
   margin-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.date-filter {
+  display: flex;
+  gap: 16px;
+  align-items: flex-end;
+}
+
+.date-filter .filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.date-filter label {
+  font-size: 0.9rem;
+  color: #4a5568;
+  font-weight: 500;
+}
+
+.month-year-select {
+  padding: 10px 12px;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+  min-width: 120px;
+}
+
+.month-year-select:hover {
+  border-color: #667eea;
+}
+
+.month-year-select:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
 }
 
 .dashboard-header h1 {

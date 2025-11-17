@@ -5,10 +5,49 @@
 .budget-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 32px;
   flex-wrap: wrap;
   gap: 16px;
+}
+
+.budget-header .date-filter {
+  display: flex;
+  gap: 16px;
+  align-items: flex-end;
+}
+
+.budget-header .date-filter .filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.budget-header .date-filter label {
+  font-size: 0.9rem;
+  color: #4a5568;
+  font-weight: 500;
+}
+
+.budget-header .month-year-select {
+  padding: 10px 12px;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+  min-width: 120px;
+}
+
+.budget-header .month-year-select:hover {
+  border-color: #667eea;
+}
+
+.budget-header .month-year-select:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
 }
 
 .budget-header h1 {

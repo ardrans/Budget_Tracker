@@ -18,16 +18,16 @@ class LoginView(APIView):
         user = None
         try:
             if '@' in email_or_phone:
-                user_obj = User.objects.get(email=email_or_phone)
+                user = authenticate(request, username=email_or_phone, password=password)
             else:
                 user_obj = User.objects.get(phone=email_or_phone)
-            user = authenticate(request, username=user_obj.email, password=password)
+                user = authenticate(request, username=user_obj.email, password=password)
         except User.DoesNotExist:
             return Response({"error": "Invalid credentials"}, status=status.HTTP_401_UNAUTHORIZED)
 
         if not user:
             return Response({"error": "Invalid credentials"}, status=status.HTTP_401_UNAUTHORIZED)
-
+        
         token, _ = Token.objects.get_or_create(user=user)
         return Response({
             "token": token.key,

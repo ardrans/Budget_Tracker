@@ -352,3 +352,1214 @@ rest_framework.exceptions.ValidationError: {'category': [ErrorDetail(string='Thi
 2025-11-14 10:40:49,460 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
 2025-11-14 10:40:49,463 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
 2025-11-14 10:40:49,467 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 11:41:45,175 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 11:41:45,175 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 11:41:45,187 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 11:41:45,187 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 13:22:52,061 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 13:22:52,083 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 13:22:52,086 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 13:22:52,089 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 13:23:03,474 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 13:23:03,489 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 13:23:39,966 - tracker.views.category - INFO - User admin@test.com accessed category list, 9 records returned
+2025-11-15 13:23:39,966 - tracker.views.category - INFO - User admin@test.com accessed category list, 9 records returned
+2025-11-15 13:23:45,143 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 13:23:45,161 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 14:16:09,705 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 14:16:09,705 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 14:16:39,799 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 14:16:39,817 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 14:46:20,245 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 14:46:20,258 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 14:46:20,263 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 14:46:20,266 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 14:46:22,783 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 14:46:22,786 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 14:46:22,789 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 14:46:22,793 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 17:03:35,250 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 17:03:35,250 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 17:03:35,264 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 17:03:35,265 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 17:04:16,302 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 17:04:16,318 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 17:06:45,952 - tracker.views.category - INFO - User admin@test.com accessed category list, 9 records returned
+2025-11-15 17:06:45,962 - tracker.views.category - INFO - User admin@test.com accessed category list, 9 records returned
+2025-11-15 17:06:50,140 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 17:10:05,927 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 17:10:05,945 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 17:10:05,951 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 17:10:05,954 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 17:10:16,091 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 17:10:16,092 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 17:10:16,097 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 17:10:16,098 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 17:10:18,979 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 17:10:18,990 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 17:14:46,817 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 17:14:46,828 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 17:14:46,831 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 17:14:46,833 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 17:17:33,522 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 17:17:33,539 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 17:17:33,544 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 17:17:33,554 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 17:17:52,064 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 17:17:52,072 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 17:17:52,078 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 17:17:52,084 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 17:18:08,612 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 17:18:08,628 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 17:18:12,142 - tracker.views.category - INFO - User admin@test.com accessed category list, 9 records returned
+2025-11-15 17:18:12,150 - tracker.views.category - INFO - User admin@test.com accessed category list, 9 records returned
+2025-11-15 17:18:38,582 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 17:18:41,462 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 17:18:41,467 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 17:18:41,470 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 17:18:41,474 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 17:22:25,039 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 17:22:25,048 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 17:22:35,849 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 17:22:38,569 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 17:22:42,005 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 17:23:23,021 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 17:23:23,029 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 17:23:23,047 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 17:23:23,051 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 17:24:43,281 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 17:24:43,282 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 17:24:43,288 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 17:24:43,288 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 17:25:14,702 - tracker.views.category - INFO - User admin@test.com accessed category list, 9 records returned
+2025-11-15 17:25:14,709 - tracker.views.category - INFO - User admin@test.com accessed category list, 9 records returned
+2025-11-15 17:25:23,005 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 17:25:23,016 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 17:28:14,903 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 17:28:14,917 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 17:28:14,921 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 17:28:14,925 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 17:29:49,737 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 17:29:49,746 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 17:29:49,756 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 17:29:49,761 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 17:30:09,350 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 17:30:09,355 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 17:30:09,360 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 17:30:09,365 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 17:33:21,421 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 17:33:21,427 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 17:33:21,432 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 17:33:21,439 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 17:38:49,552 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 17:38:49,569 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 17:38:52,665 - tracker.views.category - INFO - User admin@test.com accessed category list, 9 records returned
+2025-11-15 17:38:52,672 - tracker.views.category - INFO - User admin@test.com accessed category list, 9 records returned
+2025-11-15 17:39:08,680 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 17:39:19,394 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 17:39:22,112 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 17:39:24,378 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 17:39:27,412 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 17:39:32,180 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 17:39:37,780 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 17:39:41,821 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 17:39:41,827 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 17:39:41,831 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 17:39:41,835 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 17:39:47,066 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 17:39:47,075 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-15 17:39:47,978 - tracker.views.category - INFO - User admin@test.com accessed category list, 9 records returned
+2025-11-15 17:39:47,984 - tracker.views.category - INFO - User admin@test.com accessed category list, 9 records returned
+2025-11-15 17:40:55,479 - tracker.views.category - INFO - User admin@test.com accessed category list, 9 records returned
+2025-11-15 17:40:55,479 - tracker.views.category - INFO - User admin@test.com accessed category list, 9 records returned
+2025-11-15 17:40:59,034 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 17:40:59,039 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-15 17:40:59,043 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-15 17:40:59,053 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-16 04:46:36,970 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-16 04:46:36,971 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-16 04:46:36,986 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-16 04:46:36,987 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-16 04:47:00,120 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for January 2025
+2025-11-16 04:47:00,128 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=0
+2025-11-16 04:47:05,916 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-16 04:47:05,922 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-16 04:47:10,825 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:47:10,825 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:47:18,626 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:47:20,114 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:47:50,174 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:47:53,951 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:47:54,204 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:47:57,352 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:48:00,310 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:48:00,542 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:48:00,990 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:48:02,301 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:48:02,557 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:48:02,800 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:48:04,478 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:48:05,565 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:48:06,925 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:48:07,167 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:48:08,628 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:48:12,062 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:48:12,454 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:48:14,532 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:48:14,863 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:48:17,631 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:48:17,822 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:48:17,997 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:48:20,013 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-16 04:48:20,017 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-16 04:48:20,021 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-16 04:48:20,025 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-16 04:48:28,915 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for January 2025
+2025-11-16 04:48:28,919 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=0
+2025-11-16 04:48:37,167 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-16 04:48:37,174 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-16 04:48:44,491 - tracker.views.category - INFO - User admin@test.com accessed category list, 9 records returned
+2025-11-16 04:48:44,497 - tracker.views.category - INFO - User admin@test.com accessed category list, 9 records returned
+2025-11-16 04:48:49,995 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:48:50,015 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:48:51,069 - tracker.views.category - INFO - User admin@test.com accessed category list, 9 records returned
+2025-11-16 04:48:51,081 - tracker.views.category - INFO - User admin@test.com accessed category list, 9 records returned
+2025-11-16 04:48:51,081 - tracker.views.category - INFO - User admin@test.com accessed category list, 9 records returned
+2025-11-16 04:48:51,085 - tracker.views.category - INFO - User admin@test.com accessed category list, 9 records returned
+2025-11-16 04:48:53,858 - tracker.views.category - INFO - User admin@test.com accessed category list, 0 records returned
+2025-11-16 04:48:59,483 - tracker.views.category - INFO - User admin@test.com accessed category list, 2 records returned
+2025-11-16 04:49:08,051 - tracker.views.category - INFO - User admin@test.com accessed category list, 0 records returned
+2025-11-16 04:49:16,600 - tracker.views.category - INFO - User admin@test.com attempting to create category with data: {'name': 'salary'}
+2025-11-16 04:49:16,601 - tracker.serializers.category - INFO - Creating custom category 'salary' for user admin@test.com
+2025-11-16 04:49:16,602 - tracker.models.category - INFO - Creating new category 'salary' for user admin@test.com
+2025-11-16 04:49:16,612 - tracker.serializers.category - INFO - Category created successfully with ID: 13
+2025-11-16 04:49:16,612 - tracker.views.category - INFO - Category 'salary' created successfully for user admin@test.com
+2025-11-16 04:49:16,628 - tracker.views.category - INFO - User admin@test.com accessed category list, 0 records returned
+2025-11-16 04:49:28,884 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:49:51,082 - tracker.views.category - INFO - User admin@test.com accessed category list, 10 records returned
+2025-11-16 04:49:51,083 - tracker.views.category - INFO - User admin@test.com accessed category list, 10 records returned
+2025-11-16 04:49:51,083 - tracker.views.category - INFO - User admin@test.com accessed category list, 10 records returned
+2025-11-16 04:49:51,084 - tracker.views.category - INFO - User admin@test.com accessed category list, 10 records returned
+2025-11-16 04:49:54,720 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:53:58,495 - tracker.views.category - INFO - User admin@test.com accessed category list, 10 records returned
+2025-11-16 04:53:58,506 - tracker.views.category - INFO - User admin@test.com accessed category list, 10 records returned
+2025-11-16 04:53:58,509 - tracker.views.category - INFO - User admin@test.com accessed category list, 10 records returned
+2025-11-16 04:53:58,509 - tracker.views.category - INFO - User admin@test.com accessed category list, 10 records returned
+2025-11-16 04:54:02,033 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:56:52,519 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:56:56,854 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:57:50,402 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-16 04:57:50,402 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-16 04:57:50,419 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-16 04:57:50,420 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-16 04:57:54,490 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:57:54,490 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:58:14,714 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 04:58:27,318 - tracker.views.category - INFO - User admin@test.com accessed category list, 10 records returned
+2025-11-16 04:58:27,325 - tracker.views.category - INFO - User admin@test.com accessed category list, 10 records returned
+2025-11-16 04:58:27,325 - tracker.views.category - INFO - User admin@test.com accessed category list, 10 records returned
+2025-11-16 04:58:27,330 - tracker.views.category - INFO - User admin@test.com accessed category list, 10 records returned
+2025-11-16 04:58:31,024 - tracker.views.category - INFO - User admin@test.com accessed category list, 2 records returned
+2025-11-16 04:58:33,273 - tracker.views.category - INFO - User admin@test.com accessed category list, 0 records returned
+2025-11-16 04:58:37,349 - tracker.views.category - INFO - User admin@test.com accessed category list, 2 records returned
+2025-11-16 04:58:40,013 - tracker.views.category - INFO - User admin@test.com accessed category list, 0 records returned
+2025-11-16 04:58:45,208 - tracker.views.category - INFO - User admin@test.com attempting to create category with data: {'name': 'salary'}
+2025-11-16 04:58:45,209 - tracker.serializers.category - INFO - Creating custom category 'salary' for user admin@test.com
+2025-11-16 04:58:45,210 - tracker.models.category - INFO - Creating new category 'salary' for user admin@test.com
+2025-11-16 04:58:45,222 - tracker.serializers.category - INFO - Category created successfully with ID: 14
+2025-11-16 04:58:45,222 - tracker.views.category - INFO - Category 'salary' created successfully for user admin@test.com
+2025-11-16 04:59:13,667 - tracker.views.transactions - INFO - User admin@test.com attempting to create a transaction with data: {'type': 'income', 'category': 14, 'note': 'added salry', 'amount': '3000', 'transaction_date': '2025-11-16'}
+2025-11-16 04:59:13,668 - tracker.serializers.transactions - INFO - Validated transaction amount: 3000.00
+2025-11-16 04:59:13,670 - tracker.models.transactions - INFO - Creating new transaction for user admin@test.com: income - 3000.00 in category salary
+2025-11-16 04:59:13,672 - tracker.views.transactions - ERROR - Error saving transaction for user admin@test.com: (1054, "Unknown column 'transaction_date' in 'field list'")
+Traceback (most recent call last):
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+    ~~~~~~~~^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/MySQLdb/connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+MySQLdb.OperationalError: (1054, "Unknown column 'transaction_date' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ardrans/DotProducts_Assignment/BE/tracker/views/transactions.py", line 59, in perform_create
+    serializer.save(user=self.request.user)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/query.py", line 665, in create
+    obj.save(force_insert=True, using=self.db)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/tracker/models/transactions.py", line 33, in save
+    super().save(*args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/base.py", line 902, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/base.py", line 1008, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/base.py", line 1169, in _save_table
+    results = self._do_insert(
+        cls._base_manager, using, fields, returning_fields, raw
+    )
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/base.py", line 1210, in _do_insert
+    return manager._insert(
+           ~~~~~~~~~~~~~~~^
+        [self],
+        ^^^^^^^
+    ...<3 lines>...
+        raw=raw,
+        ^^^^^^^^
+    )
+    ^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/query.py", line 1873, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/sql/compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+    ~~~~~~~~^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/MySQLdb/connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+django.db.utils.OperationalError: (1054, "Unknown column 'transaction_date' in 'field list'")
+2025-11-16 04:59:13,682 - tracker.views.transactions - ERROR - Error creating transaction for user admin@test.com: (1054, "Unknown column 'transaction_date' in 'field list'")
+Traceback (most recent call last):
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+    ~~~~~~~~^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/MySQLdb/connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+MySQLdb.OperationalError: (1054, "Unknown column 'transaction_date' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ardrans/DotProducts_Assignment/BE/tracker/views/transactions.py", line 42, in create
+    self.perform_create(serializer)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/tracker/views/transactions.py", line 59, in perform_create
+    serializer.save(user=self.request.user)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/query.py", line 665, in create
+    obj.save(force_insert=True, using=self.db)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/tracker/models/transactions.py", line 33, in save
+    super().save(*args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/base.py", line 902, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/base.py", line 1008, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/base.py", line 1169, in _save_table
+    results = self._do_insert(
+        cls._base_manager, using, fields, returning_fields, raw
+    )
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/base.py", line 1210, in _do_insert
+    return manager._insert(
+           ~~~~~~~~~~~~~~~^
+        [self],
+        ^^^^^^^
+    ...<3 lines>...
+        raw=raw,
+        ^^^^^^^^
+    )
+    ^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/query.py", line 1873, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/sql/compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+    ~~~~~~~~^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/MySQLdb/connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+django.db.utils.OperationalError: (1054, "Unknown column 'transaction_date' in 'field list'")
+2025-11-16 05:00:02,870 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 05:00:18,324 - tracker.views.category - INFO - User admin@test.com accessed category list, 11 records returned
+2025-11-16 05:00:18,324 - tracker.views.category - INFO - User admin@test.com accessed category list, 11 records returned
+2025-11-16 05:00:18,324 - tracker.views.category - INFO - User admin@test.com accessed category list, 11 records returned
+2025-11-16 05:00:18,327 - tracker.views.category - INFO - User admin@test.com accessed category list, 11 records returned
+2025-11-16 05:00:23,262 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 05:00:35,168 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-16 05:00:35,168 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-16 05:00:35,175 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-16 05:00:35,175 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-16 05:00:42,411 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-16 05:00:42,416 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-16 05:00:42,421 - tracker.views.budget - INFO - User admin@test.com requested monthly budget summary for November 2025
+2025-11-16 05:00:42,427 - tracker.views.budget - INFO - Monthly summary generated for user admin@test.com: Income=0, Expense=170.00
+2025-11-16 05:00:44,619 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 05:00:44,619 - tracker.views.transactions - INFO - User admin@test.com accessed transaction list, 2 records returned
+2025-11-16 05:03:11,653 - tracker.views.category - INFO - User admin@test.com accessed category list, 11 records returned
+2025-11-16 05:03:11,661 - tracker.views.category - INFO - User admin@test.com accessed category list, 11 records returned
+2025-11-16 05:03:11,665 - tracker.views.category - INFO - User admin@test.com accessed category list, 11 records returned
+2025-11-16 05:03:11,666 - tracker.views.category - INFO - User admin@test.com accessed category list, 11 records returned
+2025-11-16 05:03:14,011 - tracker.views.category - INFO - User admin@test.com accessed category list, 0 records returned
+2025-11-16 05:03:18,504 - tracker.views.category - INFO - User admin@test.com accessed category list, 2 records returned
+2025-11-16 05:03:22,866 - tracker.views.category - INFO - User admin@test.com accessed category list, 0 records returned
+2025-11-16 05:03:30,159 - tracker.views.category - INFO - User admin@test.com attempting to create category with data: {'name': 'salary'}
+2025-11-16 05:03:30,160 - tracker.serializers.category - INFO - Creating custom category 'salary' for user admin@test.com
+2025-11-16 05:03:30,161 - tracker.models.category - INFO - Creating new category 'salary' for user admin@test.com
+2025-11-16 05:03:30,172 - tracker.serializers.category - INFO - Category created successfully with ID: 15
+2025-11-16 05:03:30,172 - tracker.views.category - INFO - Category 'salary' created successfully for user admin@test.com
+2025-11-16 05:03:36,841 - tracker.views.transactions - INFO - User admin@test.com attempting to create a transaction with data: {'type': 'income', 'category': 15, 'note': 'salry', 'amount': '60000', 'transaction_date': '2025-11-16'}
+2025-11-16 05:03:36,844 - tracker.serializers.transactions - INFO - Validated transaction amount: 60000.00
+2025-11-16 05:03:36,847 - tracker.models.transactions - INFO - Creating new transaction for user admin@test.com: income - 60000.00 in category salary
+2025-11-16 05:03:36,849 - tracker.views.transactions - ERROR - Error saving transaction for user admin@test.com: (1054, "Unknown column 'transaction_date' in 'field list'")
+Traceback (most recent call last):
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+    ~~~~~~~~^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/MySQLdb/connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+MySQLdb.OperationalError: (1054, "Unknown column 'transaction_date' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ardrans/DotProducts_Assignment/BE/tracker/views/transactions.py", line 59, in perform_create
+    serializer.save(user=self.request.user)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/query.py", line 665, in create
+    obj.save(force_insert=True, using=self.db)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/tracker/models/transactions.py", line 33, in save
+    super().save(*args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/base.py", line 902, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/base.py", line 1008, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/base.py", line 1169, in _save_table
+    results = self._do_insert(
+        cls._base_manager, using, fields, returning_fields, raw
+    )
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/base.py", line 1210, in _do_insert
+    return manager._insert(
+           ~~~~~~~~~~~~~~~^
+        [self],
+        ^^^^^^^
+    ...<3 lines>...
+        raw=raw,
+        ^^^^^^^^
+    )
+    ^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/query.py", line 1873, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/sql/compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+    ~~~~~~~~^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/MySQLdb/connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+django.db.utils.OperationalError: (1054, "Unknown column 'transaction_date' in 'field list'")
+2025-11-16 05:03:36,863 - tracker.views.transactions - ERROR - Error creating transaction for user admin@test.com: (1054, "Unknown column 'transaction_date' in 'field list'")
+Traceback (most recent call last):
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+    ~~~~~~~~^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/MySQLdb/connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+MySQLdb.OperationalError: (1054, "Unknown column 'transaction_date' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ardrans/DotProducts_Assignment/BE/tracker/views/transactions.py", line 42, in create
+    self.perform_create(serializer)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/tracker/views/transactions.py", line 59, in perform_create
+    serializer.save(user=self.request.user)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/query.py", line 665, in create
+    obj.save(force_insert=True, using=self.db)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/tracker/models/transactions.py", line 33, in save
+    super().save(*args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/base.py", line 902, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/base.py", line 1008, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/base.py", line 1169, in _save_table
+    results = self._do_insert(
+        cls._base_manager, using, fields, returning_fields, raw
+    )
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/base.py", line 1210, in _do_insert
+    return manager._insert(
+           ~~~~~~~~~~~~~~~^
+        [self],
+        ^^^^^^^
+    ...<3 lines>...
+        raw=raw,
+        ^^^^^^^^
+    )
+    ^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/query.py", line 1873, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/models/sql/compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+    ~~~~~~~~^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/MySQLdb/connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+django.db.utils.OperationalError: (1054, "Unknown column 'transaction_date' in 'field list'")
+2025-11-16 05:22:07,574 - tracker.models.users - INFO - Saving user: admin@example.com
+2025-11-16 05:22:07,591 - tracker.models.category - INFO - Creating new category 'Salary' for user admin@example.com
+2025-11-16 05:22:07,609 - tracker.models.category - INFO - Creating new category 'Rent' for user admin@example.com
+2025-11-16 05:22:07,609 - tracker.models.category - INFO - Creating new category 'Groceries' for user admin@example.com
+2025-11-16 05:22:07,609 - tracker.models.category - INFO - Creating new category 'Entertainment' for user admin@example.com
+2025-11-16 05:22:07,610 - tracker.models.category - INFO - Creating new category 'Misc' for user admin@example.com
+2025-11-16 05:38:50,767 - tracker.models.users - INFO - Saving user: admin@example.com
+2025-11-16 06:19:02,952 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 06:19:02,952 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 06:19:02,968 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=0
+2025-11-16 06:19:02,968 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=0
+2025-11-16 06:19:08,155 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 0 records returned
+2025-11-16 06:19:08,155 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 0 records returned
+2025-11-16 06:19:09,500 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 06:19:09,505 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=0
+2025-11-16 06:19:09,509 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 06:19:09,513 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=0
+2025-11-16 06:19:12,252 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 06:19:12,252 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 06:19:12,258 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=0
+2025-11-16 06:19:12,258 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=0
+2025-11-16 06:22:11,312 - tracker.views.category - INFO - User admin@example.com accessed category list, 5 records returned
+2025-11-16 06:22:11,312 - tracker.views.category - INFO - User admin@example.com accessed category list, 5 records returned
+2025-11-16 06:22:12,921 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 0 records returned
+2025-11-16 06:22:12,921 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 0 records returned
+2025-11-16 06:22:23,111 - tracker.views.category - INFO - User admin@example.com accessed category list, 5 records returned
+2025-11-16 06:22:23,125 - tracker.views.category - INFO - User admin@example.com accessed category list, 5 records returned
+2025-11-16 06:22:23,125 - tracker.views.category - INFO - User admin@example.com accessed category list, 5 records returned
+2025-11-16 06:22:23,129 - tracker.views.category - INFO - User admin@example.com accessed category list, 5 records returned
+2025-11-16 06:22:25,792 - tracker.views.category - INFO - User admin@example.com accessed category list, 0 records returned
+2025-11-16 06:22:34,576 - tracker.views.category - INFO - User admin@example.com attempting to create category with data: {'name': 'salary'}
+2025-11-16 06:22:34,578 - tracker.serializers.category - INFO - Creating custom category 'salary' for user admin@example.com
+2025-11-16 06:22:34,579 - tracker.models.category - INFO - Creating new category 'salary' for user admin@example.com
+2025-11-16 06:22:34,590 - tracker.serializers.category - INFO - Category created successfully with ID: 6
+2025-11-16 06:22:34,590 - tracker.views.category - INFO - Category 'salary' created successfully for user admin@example.com
+2025-11-16 06:22:41,926 - tracker.views.transactions - INFO - User admin@example.com attempting to create a transaction with data: {'type': 'income', 'category': 6, 'note': 'sal', 'amount': '30', 'transaction_date': '2025-11-16'}
+2025-11-16 06:22:41,933 - tracker.serializers.transactions - INFO - Validated transaction amount: 30.00
+2025-11-16 06:22:41,937 - tracker.models.transactions - INFO - Creating new transaction for user admin@example.com: income - 30.00 in category salary
+2025-11-16 06:22:41,939 - tracker.views.transactions - INFO - User admin@example.com created a transaction of amount 30.00 in category salary
+2025-11-16 06:22:41,939 - tracker.views.transactions - INFO - Transaction created successfully for user admin@example.com
+2025-11-16 06:22:41,955 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 06:22:54,080 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 06:22:54,081 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 06:22:54,081 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 06:22:54,087 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 06:22:56,853 - tracker.views.category - INFO - User admin@example.com accessed category list, 0 records returned
+2025-11-16 06:23:25,925 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 06:23:26,787 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 06:23:26,788 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 06:24:34,665 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 06:24:34,676 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 06:24:35,470 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 06:24:35,482 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 06:24:35,483 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 06:24:35,483 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 06:24:37,434 - tracker.views.category - INFO - User admin@example.com accessed category list, 1 records returned
+2025-11-16 06:27:51,696 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 06:27:54,659 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 06:27:54,660 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 06:29:44,284 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 06:29:44,285 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 06:29:57,531 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 06:29:57,542 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 06:29:57,542 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 06:29:57,546 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 06:29:59,874 - tracker.views.category - INFO - User admin@example.com accessed category list, 0 records returned
+2025-11-16 06:30:11,677 - tracker.views.category - INFO - User admin@example.com attempting to create category with data: {'name': 'groceries'}
+2025-11-16 06:30:11,678 - tracker.serializers.category - INFO - Creating custom category 'groceries' for user admin@example.com
+2025-11-16 06:30:11,679 - tracker.models.category - INFO - Creating new category 'groceries' for user admin@example.com
+2025-11-16 06:30:11,691 - tracker.serializers.category - INFO - Category created successfully with ID: 7
+2025-11-16 06:30:11,691 - tracker.views.category - INFO - Category 'groceries' created successfully for user admin@example.com
+2025-11-16 06:30:20,427 - tracker.views.transactions - INFO - User admin@example.com attempting to create a transaction with data: {'type': 'expense', 'category': 7, 'note': 'ddsv', 'amount': '4', 'transaction_date': '2025-11-12'}
+2025-11-16 06:30:20,428 - tracker.serializers.transactions - INFO - Validated transaction amount: 4.00
+2025-11-16 06:30:20,430 - tracker.models.transactions - INFO - Creating new transaction for user admin@example.com: expense - 4.00 in category groceries
+2025-11-16 06:30:20,432 - tracker.views.transactions - INFO - User admin@example.com created a transaction of amount 4.00 in category groceries
+2025-11-16 06:30:20,432 - tracker.views.transactions - INFO - Transaction created successfully for user admin@example.com
+2025-11-16 06:30:20,445 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 2 records returned
+2025-11-16 06:30:25,007 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 06:30:25,007 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 06:30:25,008 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 06:30:25,009 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 06:30:27,420 - tracker.views.category - INFO - User admin@example.com accessed category list, 1 records returned
+2025-11-16 06:30:31,005 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 2 records returned
+2025-11-16 06:30:32,001 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 06:30:32,001 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 06:32:03,617 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 06:32:03,625 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=30.00, Expense=4.00
+2025-11-16 06:32:03,633 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 06:32:03,641 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=30.00, Expense=4.00
+2025-11-16 06:32:21,236 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 2 records returned
+2025-11-16 06:32:21,244 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 2 records returned
+2025-11-16 06:32:26,751 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 06:32:26,759 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=30.00, Expense=4.00
+2025-11-16 06:32:26,764 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 06:32:26,770 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=30.00, Expense=4.00
+2025-11-16 06:32:33,674 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 06:32:33,678 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=30.00, Expense=4.00
+2025-11-16 06:32:33,683 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 06:32:33,688 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=30.00, Expense=4.00
+2025-11-16 06:32:43,745 - tracker.views.budget - INFO - Fetching or creating budget entry for user admin@example.com for November 2025
+2025-11-16 06:32:43,748 - tracker.models.budget - INFO - Creating new budget for user admin@example.com for month November with amount 0
+2025-11-16 06:32:43,753 - tracker.views.budget - INFO - New budget created for user admin@example.com
+2025-11-16 06:32:43,755 - tracker.serializers.budget - INFO - Validated budget amount: 500.00
+2025-11-16 06:32:43,755 - tracker.views.budget - ERROR - Error updating budget for user admin@example.com: {'month': [ErrorDetail(string='Date has wrong format. Use one of these formats instead: YYYY-MM-DD.', code='invalid')]}
+Traceback (most recent call last):
+  File "/Users/ardrans/DotProducts_Assignment/BE/tracker/views/budget.py", line 128, in update
+    response = super().update(request, *args, **kwargs)
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/rest_framework/mixins.py", line 67, in update
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 233, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'month': [ErrorDetail(string='Date has wrong format. Use one of these formats instead: YYYY-MM-DD.', code='invalid')]}
+2025-11-16 07:19:20,441 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:19:20,461 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=30.00, Expense=4.00
+2025-11-16 07:19:20,466 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:19:20,468 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=30.00, Expense=4.00
+2025-11-16 07:19:22,574 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 07:19:22,617 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 07:19:27,922 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:19:27,925 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:19:27,928 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=30.00, Expense=4.00
+2025-11-16 07:19:27,931 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=30.00, Expense=4.00
+2025-11-16 07:19:30,469 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 07:19:30,470 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 07:20:27,338 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:20:27,349 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=30.00, Expense=4.00
+2025-11-16 07:20:27,359 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:20:27,363 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=30.00, Expense=4.00
+2025-11-16 07:20:29,475 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 07:20:29,477 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 07:20:34,778 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:20:34,785 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=30.00, Expense=4.00
+2025-11-16 07:20:34,792 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:20:34,797 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=30.00, Expense=4.00
+2025-11-16 07:20:40,484 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 07:20:40,484 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 07:20:43,255 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 2 records returned
+2025-11-16 07:20:43,296 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 2 records returned
+2025-11-16 07:23:41,577 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:23:41,611 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=30.00, Expense=4.00
+2025-11-16 07:23:41,615 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:23:41,616 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=30.00, Expense=4.00
+2025-11-16 07:23:51,063 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 07:23:51,064 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 07:24:03,743 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 07:24:03,751 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 07:24:06,641 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 2 records returned
+2025-11-16 07:24:06,645 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 2 records returned
+2025-11-16 07:24:11,411 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 07:24:11,422 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 07:24:11,423 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 07:24:11,425 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 07:24:15,873 - tracker.views.category - INFO - User admin@example.com accessed category list, 1 records returned
+2025-11-16 07:24:21,249 - tracker.views.category - INFO - User admin@example.com accessed category list, 1 records returned
+2025-11-16 07:24:26,882 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 2 records returned
+2025-11-16 07:24:27,885 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 07:24:27,897 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 07:24:35,988 - tracker.views.category - INFO - User admin@example.com accessed category detail view
+2025-11-16 07:24:35,990 - tracker.views.category - INFO - User admin@example.com deleted category 6
+2025-11-16 07:24:36,016 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:24:50,994 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 07:24:51,003 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 07:25:06,454 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 07:25:08,749 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 07:25:14,642 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:25:14,649 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:25:18,908 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 07:25:18,920 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 07:25:20,269 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:25:20,269 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:25:20,272 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:25:20,273 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:25:22,337 - tracker.views.category - INFO - User admin@example.com accessed category list, 0 records returned
+2025-11-16 07:25:29,601 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 07:25:32,984 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:25:32,990 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:25:55,019 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:25:55,024 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=4.00
+2025-11-16 07:25:55,029 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:25:55,034 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=4.00
+2025-11-16 07:26:12,956 - tracker.views.budget - INFO - Fetching or creating budget entry for user admin@example.com for November 2025
+2025-11-16 07:26:12,958 - tracker.views.budget - INFO - Existing budget retrieved for user admin@example.com
+2025-11-16 07:26:12,959 - tracker.serializers.budget - INFO - Validated budget amount: 55.00
+2025-11-16 07:26:12,959 - tracker.views.budget - ERROR - Error updating budget for user admin@example.com: {'month': [ErrorDetail(string='Date has wrong format. Use one of these formats instead: YYYY-MM-DD.', code='invalid')]}
+Traceback (most recent call last):
+  File "/Users/ardrans/DotProducts_Assignment/BE/tracker/views/budget.py", line 128, in update
+    response = super().update(request, *args, **kwargs)
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/rest_framework/mixins.py", line 67, in update
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ardrans/DotProducts_Assignment/BE/venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 233, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'month': [ErrorDetail(string='Date has wrong format. Use one of these formats instead: YYYY-MM-DD.', code='invalid')]}
+2025-11-16 07:26:30,867 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:26:30,873 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=4.00
+2025-11-16 07:26:30,885 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:26:30,892 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=4.00
+2025-11-16 07:26:32,697 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:26:32,704 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:26:38,942 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 07:26:38,952 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 07:29:15,682 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:29:15,683 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:31:13,385 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:31:13,397 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=4.00
+2025-11-16 07:31:13,401 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:31:13,404 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=4.00
+2025-11-16 07:31:42,748 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 07:31:42,766 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 07:31:43,593 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:31:43,597 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:31:43,598 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:31:43,610 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:31:49,170 - tracker.views.category - INFO - User admin@example.com accessed category list, 0 records returned
+2025-11-16 07:31:52,190 - tracker.views.category - INFO - User admin@example.com accessed category list, 1 records returned
+2025-11-16 07:32:04,762 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 07:32:06,672 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 07:32:06,675 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 07:32:07,966 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:32:07,971 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=4.00
+2025-11-16 07:32:07,977 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:32:07,981 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=4.00
+2025-11-16 07:32:09,174 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:32:09,179 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:32:13,009 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 07:32:13,009 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 07:32:14,047 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:32:14,048 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:32:14,053 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:32:14,057 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:32:17,990 - tracker.views.category - INFO - User admin@example.com accessed category list, 1 records returned
+2025-11-16 07:35:01,075 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 07:35:04,472 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:35:04,477 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=4.00
+2025-11-16 07:35:04,482 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:35:04,487 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=4.00
+2025-11-16 07:35:14,320 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:35:14,324 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:35:14,325 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=4.00
+2025-11-16 07:35:14,328 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=4.00
+2025-11-16 07:35:16,804 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:35:16,810 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:35:25,385 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 07:35:25,395 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 07:35:43,832 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:35:43,845 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:35:43,846 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:35:43,852 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:35:50,892 - tracker.views.category - INFO - User admin@example.com accessed category list, 0 records returned
+2025-11-16 07:35:58,074 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:36:03,934 - tracker.views.category - INFO - User admin@example.com accessed category list, 0 records returned
+2025-11-16 07:36:08,809 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 07:36:12,023 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:36:12,029 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=4.00
+2025-11-16 07:36:12,034 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:36:12,040 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=4.00
+2025-11-16 07:36:20,118 - tracker.views.budget - INFO - Fetching or creating budget entry for user admin@example.com for November 2025
+2025-11-16 07:36:20,119 - tracker.views.budget - INFO - Existing budget retrieved for user admin@example.com
+2025-11-16 07:36:20,120 - tracker.serializers.budget - INFO - Validated budget amount: 45.00
+2025-11-16 07:36:20,121 - tracker.models.budget - INFO - Updating budget for user admin@example.com for month November with amount 45.00
+2025-11-16 07:36:20,132 - tracker.views.budget - INFO - User admin@example.com updated budget to 45.00
+2025-11-16 07:36:20,145 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:36:20,151 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=4.00
+2025-11-16 07:36:28,749 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 07:36:28,759 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 07:36:36,581 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 07:36:42,046 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 07:36:45,082 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 07:36:48,439 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 07:36:57,480 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 07:36:58,976 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 07:37:01,500 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:37:01,506 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=4.00
+2025-11-16 07:37:01,512 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:37:01,518 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=4.00
+2025-11-16 07:37:15,455 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:37:15,461 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:37:19,798 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 07:37:19,804 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 1 records returned
+2025-11-16 07:37:20,774 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:37:20,774 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:37:20,783 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:37:20,783 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:37:23,387 - tracker.views.category - INFO - User admin@example.com accessed category list, 6 records returned
+2025-11-16 07:37:31,539 - tracker.views.category - INFO - User admin@example.com attempting to create category with data: {'name': 'travel', 'type': 'expense'}
+2025-11-16 07:37:31,540 - tracker.serializers.category - INFO - Creating custom category 'travel' for user admin@example.com
+2025-11-16 07:37:31,541 - tracker.models.category - INFO - Creating new category 'travel' for user admin@example.com
+2025-11-16 07:37:31,549 - tracker.serializers.category - INFO - Category created successfully with ID: 8
+2025-11-16 07:37:31,549 - tracker.views.category - INFO - Category 'travel' created successfully for user admin@example.com
+2025-11-16 07:37:36,639 - tracker.views.transactions - INFO - User admin@example.com attempting to create a transaction with data: {'type': 'expense', 'category': 8, 'note': 'vcs', 'amount': '56', 'transaction_date': '2025-11-16'}
+2025-11-16 07:37:36,640 - tracker.serializers.transactions - INFO - Validated transaction amount: 56.00
+2025-11-16 07:37:36,642 - tracker.models.transactions - INFO - Creating new transaction for user admin@example.com: expense - 56.00 in category travel
+2025-11-16 07:37:36,643 - tracker.views.transactions - INFO - User admin@example.com created a transaction of amount 56.00 in category travel
+2025-11-16 07:37:36,643 - tracker.views.transactions - INFO - Transaction created successfully for user admin@example.com
+2025-11-16 07:37:36,655 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 2 records returned
+2025-11-16 07:37:40,370 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:37:40,374 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=60.00
+2025-11-16 07:37:40,379 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:37:40,386 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=60.00
+2025-11-16 07:37:53,192 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 2 records returned
+2025-11-16 07:37:53,212 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 2 records returned
+2025-11-16 07:37:54,017 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 07:37:54,019 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 07:37:54,019 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 07:37:54,025 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 07:37:58,784 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 2 records returned
+2025-11-16 07:40:09,543 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:40:09,558 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=60.00
+2025-11-16 07:40:09,562 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:40:09,564 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=60.00
+2025-11-16 07:40:11,396 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 07:40:11,404 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 07:40:13,122 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 2 records returned
+2025-11-16 07:40:13,135 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 2 records returned
+2025-11-16 07:40:14,554 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 07:40:14,567 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 07:40:14,569 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 07:40:14,570 - tracker.views.category - INFO - User admin@example.com accessed category list, 7 records returned
+2025-11-16 07:40:16,718 - tracker.views.category - INFO - User admin@example.com accessed category list, 1 records returned
+2025-11-16 07:40:31,668 - tracker.views.category - INFO - User admin@example.com attempting to create category with data: {'name': 'tuition fee', 'type': 'income'}
+2025-11-16 07:40:31,669 - tracker.serializers.category - INFO - Creating custom category 'tuition fee' for user admin@example.com
+2025-11-16 07:40:31,670 - tracker.models.category - INFO - Creating new category 'tuition fee' for user admin@example.com
+2025-11-16 07:40:31,682 - tracker.serializers.category - INFO - Category created successfully with ID: 9
+2025-11-16 07:40:31,682 - tracker.views.category - INFO - Category 'tuition fee' created successfully for user admin@example.com
+2025-11-16 07:40:35,681 - tracker.views.transactions - INFO - User admin@example.com attempting to create a transaction with data: {'type': 'income', 'category': 9, 'note': 'cs', 'amount': '45', 'transaction_date': '2025-11-16'}
+2025-11-16 07:40:35,682 - tracker.serializers.transactions - INFO - Validated transaction amount: 45.00
+2025-11-16 07:40:35,684 - tracker.models.transactions - INFO - Creating new transaction for user admin@example.com: income - 45.00 in category tuition fee
+2025-11-16 07:40:35,687 - tracker.views.transactions - INFO - User admin@example.com created a transaction of amount 45.00 in category tuition fee
+2025-11-16 07:40:35,687 - tracker.views.transactions - INFO - Transaction created successfully for user admin@example.com
+2025-11-16 07:40:35,699 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 3 records returned
+2025-11-16 07:40:38,609 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 3 records returned
+2025-11-16 07:40:40,016 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 3 records returned
+2025-11-16 07:40:42,765 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-16 07:40:42,766 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-16 07:40:44,087 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:40:44,092 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 07:40:44,098 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:40:44,103 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 07:40:51,006 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:40:51,008 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 07:40:51,011 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 07:40:51,013 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 07:40:53,414 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 3 records returned
+2025-11-16 07:40:53,416 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 3 records returned
+2025-11-16 07:40:59,327 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-16 07:40:59,330 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-16 08:54:17,504 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 08:54:17,504 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 08:54:17,516 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 08:54:17,516 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 08:55:19,345 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-16 08:55:19,370 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-16 09:07:42,470 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-16 09:07:42,470 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-16 09:14:16,076 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 09:14:16,076 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 09:14:16,088 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 09:14:16,088 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 09:14:33,383 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for February 2025
+2025-11-16 09:14:33,387 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=0
+2025-11-16 09:14:39,519 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 09:14:39,524 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 09:14:43,121 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 09:14:43,124 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 09:14:43,127 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 09:14:43,129 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 09:14:44,765 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for January 2025
+2025-11-16 09:14:44,770 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=0
+2025-11-16 09:14:49,083 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 09:14:49,089 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 09:14:51,565 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for January 2025
+2025-11-16 09:14:51,572 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=0
+2025-11-16 09:14:56,065 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for December 2025
+2025-11-16 09:14:56,071 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=0
+2025-11-16 09:14:58,466 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 09:14:58,473 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 09:15:10,838 - tracker.views.budget - INFO - Fetching or creating budget entry for user admin@example.com for November 2025
+2025-11-16 09:15:10,839 - tracker.views.budget - INFO - Existing budget retrieved for user admin@example.com
+2025-11-16 09:15:10,844 - tracker.serializers.budget - INFO - Validated budget amount: 400.00
+2025-11-16 09:15:10,846 - tracker.models.budget - INFO - Updating budget for user admin@example.com for month November with amount 400.00
+2025-11-16 09:15:10,859 - tracker.views.budget - INFO - User admin@example.com updated budget to 400.00
+2025-11-16 09:15:10,867 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 09:15:10,871 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 09:15:26,370 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-16 09:15:26,371 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-16 09:49:07,634 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 09:49:07,634 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 09:49:07,649 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 09:49:07,649 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 09:49:15,244 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 3 records returned
+2025-11-16 09:49:15,257 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 3 records returned
+2025-11-16 09:49:24,530 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 09:49:24,534 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 09:49:24,538 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 09:49:24,542 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 09:49:26,273 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-16 09:49:26,281 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-16 09:51:06,823 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 09:51:06,831 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 09:51:06,851 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 09:51:06,858 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 09:51:40,425 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 3 records returned
+2025-11-16 09:51:40,438 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 3 records returned
+2025-11-16 09:52:12,179 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-16 09:52:12,180 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-16 09:52:17,488 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 09:52:17,493 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 09:52:17,497 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 09:52:17,501 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 09:52:19,944 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-16 09:52:19,944 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-16 09:52:44,128 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 3 records returned
+2025-11-16 09:52:44,139 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 3 records returned
+2025-11-16 09:52:44,921 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-16 09:52:44,923 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-16 09:52:44,926 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-16 09:52:44,926 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-16 09:52:47,849 - tracker.views.transactions - INFO - User admin@example.com accessed transaction list, 3 records returned
+2025-11-16 09:52:48,973 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-16 09:52:48,980 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-16 09:53:40,402 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 09:53:40,410 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 09:53:40,415 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 09:53:40,429 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 09:53:44,907 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-16 09:53:44,913 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-16 09:53:53,066 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-16 09:53:53,074 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-16 09:53:57,455 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 09:53:57,463 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 09:53:57,466 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 09:53:57,471 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 09:54:13,626 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 09:54:13,632 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 09:54:13,635 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 09:54:13,639 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 09:54:22,729 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for February 2025
+2025-11-16 09:54:22,732 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=0, Expense=0
+2025-11-16 09:54:30,880 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 09:54:30,887 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 09:54:40,655 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 09:54:40,661 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 09:54:40,666 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 09:54:40,671 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 09:55:54,203 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-16 09:55:54,203 - tracker.views.category - INFO - User admin@example.com accessed category list, 8 records returned
+2025-11-16 10:02:50,103 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 10:02:50,104 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 10:02:50,112 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 10:02:50,112 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 13:50:50,155 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 13:50:50,170 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 13:50:50,174 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 13:50:50,176 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 14:03:41,130 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 14:03:41,140 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 14:03:41,144 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 14:03:41,146 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 14:04:24,442 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 14:04:24,446 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 14:04:24,448 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 14:04:24,451 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 14:04:58,858 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 14:04:58,858 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 14:04:58,864 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 14:04:58,865 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 14:08:55,653 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 14:08:55,653 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 14:08:55,662 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 14:08:55,663 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 14:09:13,465 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 14:09:13,466 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 14:09:13,472 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 14:09:13,472 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 14:10:25,105 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 14:10:25,107 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 14:10:25,113 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 14:10:25,113 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 14:12:48,565 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 14:12:48,565 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 14:12:48,575 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 14:12:48,575 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 14:13:18,705 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 14:13:18,705 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 14:13:18,720 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 14:13:18,720 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 14:13:51,865 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 14:13:51,872 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 14:13:51,877 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 14:13:51,881 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 14:16:04,553 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 14:16:04,553 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 14:16:04,558 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 14:16:04,558 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 14:17:25,809 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 14:17:25,810 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 14:17:25,818 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 14:17:25,819 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 14:17:38,468 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 14:17:38,469 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 14:17:38,471 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 14:17:38,472 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 14:21:50,470 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 14:21:50,470 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 14:21:50,481 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 14:21:50,481 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 14:21:55,228 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 14:21:55,229 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 14:21:55,231 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 14:21:55,232 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 14:22:07,538 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 14:22:07,539 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 14:22:07,541 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 14:22:07,542 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 14:23:28,124 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 14:23:28,130 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00
+2025-11-16 14:23:28,135 - tracker.views.budget - INFO - User admin@example.com requested monthly budget summary for November 2025
+2025-11-16 14:23:28,142 - tracker.views.budget - INFO - Monthly summary generated for user admin@example.com: Income=45.00, Expense=60.00

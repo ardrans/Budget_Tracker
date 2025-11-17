@@ -26,6 +26,8 @@ function ProtectedRoute({ children }) {
 // Navbar + Links
 function Navbar() {
   const { logout, user } = useContext(AuthContext);
+  const name = localStorage.getItem('name');
+
   const history = useNavigate();
 
 
@@ -58,7 +60,7 @@ function Navbar() {
         </div>
         {user && (
           <div className="nav-user">
-            <span className="username">{user.username}</span>
+            <span className="username">{name}</span>
             <button className="logout-button" onClick={handleLogout}>Logout</button>
           </div>
         )}

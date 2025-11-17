@@ -5,6 +5,7 @@ from tracker.logger import get_logger
 logger = get_logger(__name__)
 
 class TransactionSerializer(serializers.ModelSerializer):
+    category_name = serializers.CharField(source='category.name', read_only=True)
     class Meta:
         model = Transaction
         fields = '__all__'

@@ -13,53 +13,121 @@ export default function TransactionForm({ open, onClose, editTransaction }) {
   const [category, setCategory] = useState(editTransaction?.category || '');
   const [note, setNote] = useState(editTransaction?.note || '');
   const [amount, setAmount] = useState(editTransaction?.amount || '');
+  const [transactionDate, setTransactionDate] = useState(
+    editTransaction?.transaction_date 
+      ? new Date(editTransaction.transaction_date).toISOString().split('T')[0]
+      : new Date().toISOString().split('T')[0]
+  );
   const [categories, setCategories] = useState([]);
   const [newCategory, setNewCategory] = useState('');
   const [creatingCategory, setCreatingCategory] = useState(false);
   const [error, setError] = useState('');
 
-  const loadCategories = async () => {
+  const loadCategories = async (filterType = null) => {
     try {
-      const data = await fetchCategories();
-      setCategories(data);
+      const data = await fetchCategories(filterType);
+      // Ensure data is an array
+      const categoriesList = Array.isArray(data) ? data : [];
+      setCategories(categoriesList);
+      // If category was set but is no longer in the filtered list, reset it
+      if (category && !categoriesList.find(c => c.id.toString() === category.toString())) {
+        setCategory('');
+      }
     } catch (err) {
-      console.error(err);
+      console.error('Error loading categories:', err);
+      setCategories([]);
     }
   };
 
   useEffect(() => {
-    loadCategories();
-  }, []);
+    if (editTransaction) {
+      const editType = editTransaction.type || '';
+      const editCategory = editTransaction.category || '';
+      const editNote = editTransaction.note || '';
+      const editAmount = editTransaction.amount || '';
+      const editDate = editTransaction.transaction_date 
+        ? new Date(editTransaction.transaction_date).toISOString().split('T')[0]
+        : new Date().toISOString().split('T')[0];
+      setType(editType);
+      setCategory(editCategory);
+      setNote(editNote);
+      setAmount(editAmount);
+      setTransactionDate(editDate);
+      loadCategories(editType || null);
+    } else {
+      setType('');
+      setCategory('');
+      setNote('');
+      setAmount('');
+      setTransactionDate(new Date().toISOString().split('T')[0]);
+      loadCategories(null);
+    }
+  }, [editTransaction]);
+
+  useEffect(() => {
+    // Reload categories when type changes
+    if (type) {
+      loadCategories(type);
+      // Reset category when type changes (unless editing and type matches editTransaction type)
+      if (!editTransaction || editTransaction.type !== type) {
+        setCategory('');
+      }
+    } else {
+      loadCategories(null);
+      setCategory('');
+    }
+  }, [type]);
 
   const handleAddCategory = async () => {
-  if (!newCategory.trim()) return;
-  try {
-    // Create new category
-    await createCategory({ name: newCategory });
+    if (!newCategory.trim()) return;
+    if (!type) {
+      setError('Please select transaction type first before adding a category');
+      return;
+    }
+    try {
+      // Create new category with the same type as the transaction
+      const createdCategory = await createCategory({ name: newCategory, type: type });
 
-    // Reload categories from API
-    const allCategories = await fetchCategories();
-    setCategories(allCategories);
+      // Get the category ID from the response (structure: {message: "...", data: {id, name, ...}})
+      // The API returns {message: "...", data: {id, name, ...}}
+      const categoryId = createdCategory.data?.id || createdCategory.id;
+      const newCategoryObj = {
+        id: categoryId,
+        name: newCategory,
+        type: type
+      };
+      
+      // Immediately add the new category to the list, regardless of type filter
+      // This ensures the user sees it right away
+      setCategories(prevCategories => {
+        // Check if category already exists to avoid duplicates
+        const exists = prevCategories.find(c => c.id === categoryId || c.name === newCategory);
+        if (exists) return prevCategories;
+        return [...prevCategories, newCategoryObj];
+      });
 
-    // Automatically select the newly added category
-    const added = allCategories.find(c => c.name === newCategory);
-    if (added) setCategory(added.id);
+      // Automatically select the newly added category
+      setCategory(categoryId);
 
-    // Reset new category input
-    setNewCategory('');
-    setCreatingCategory(false);
-  } catch (err) {
-    console.error('Error creating category:', err);
-  }
-};
+      // Reset new category input
+      setNewCategory('');
+      setCreatingCategory(false);
+      
+      // Clear any error messages
+      setError('');
+    } catch (err) {
+      console.error('Error creating category:', err);
+      setError('Failed to create category. Please try again.');
+    }
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!type || !category || !note || !amount) {
+    if (!type || !category || !note || !amount || !transactionDate) {
       setError('All fields are required');
       return;
     }
-    const data = { type, category, note, amount };
+    const data = { type, category, note, amount, transaction_date: transactionDate };
     try {
       if (editTransaction) await updateTransaction(editTransaction.id, data);
       else await createTransaction(data);
@@ -149,6 +217,16 @@ export default function TransactionForm({ open, onClose, editTransaction }) {
               value={amount}
               onChange={e => setAmount(e.target.value)}
               placeholder="Enter amount"
+            />
+          </div>
+
+          <div className="form-group">
+            <label>Date</label>
+            <input
+              type="date"
+              value={transactionDate}
+              onChange={e => setTransactionDate(e.target.value)}
+              required
             />
           </div>
 

@@ -8,7 +8,7 @@ logger = get_logger(__name__)
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        fields = ['id', 'email', 'name', 'phone', 'password']
+        fields = ['id', 'email', 'name', 'phone', 'password','currency']
         extra_kwargs = {'password': {'write_only': True}}
 
     def create(self, validated_data):

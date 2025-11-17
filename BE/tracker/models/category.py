@@ -5,8 +5,14 @@ from tracker.logger import get_logger
 logger = get_logger(__name__)
 
 class Category(models.Model):
+    TYPE_CHOICES = (
+        ('income', 'Income'),
+        ('expense', 'Expense')
+    )
+    
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="categories")
     name = models.CharField(max_length=100)
+    type = models.CharField(max_length=10, choices=TYPE_CHOICES, default='expense')
     is_custom = models.BooleanField(default=False)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)

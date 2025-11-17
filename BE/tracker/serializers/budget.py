@@ -8,7 +8,7 @@ class BudgetSerializer(serializers.ModelSerializer):
     class Meta:
         model = Budget
         fields = ['id', 'user', 'month', 'amount']
-        read_only_fields = ['id', 'user','month']
+        read_only_fields = ['id', 'user', 'month']
 
     def validate_amount(self, value):
         if value <= 0:
