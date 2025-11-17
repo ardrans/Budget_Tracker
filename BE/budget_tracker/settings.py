@@ -25,7 +25,7 @@ import dj_database_url
 SECRET_KEY = config("SECRET_KEY")
 DEBUG = config("DEBUG", default=True, cast=bool)
 
-ALLOWED_HOSTS = ['budget-tracker.onrender.com']
+ALLOWED_HOSTS = ['budget-tracker-v4yt.onrender.com']
 
 
 # Application definition
