@@ -67,8 +67,8 @@ export default function Login() {
         <div className="login-footer">
           <div className="test-credentials">
             <p>Test credentials:</p>
-            <p><strong>Email:</strong> test@example.com</p>
-            <p><strong>Password:</strong> password123</p>
+            <p><strong>Email:</strong> admin@example.com</p>
+            <p><strong>Password:</strong> admin123</p>
           </div>
         </div>
       </div>
